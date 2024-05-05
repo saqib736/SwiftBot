@@ -22,9 +22,10 @@ Key features include:
 
 Explore some images of SwiftBot in action:
 
-![SwiftBot Image 1](robot1.jpeg)
-![SwiftBot Image 2](robot2.jpeg)
-![SwiftBot Image 3](robot3.jpeg)
+<!-- Resize images for better fit and presentation -->
+<img src="robot1.jpeg" width="300">
+<img src="robot2.jpeg" width="300">
+<img src="robot3.jpeg" width="300">
 
 ## Getting Started
 
