@@ -1,0 +1,774 @@
+[5.439s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[5.439s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0xffff7ddbe0e0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffff7e0714e0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffff7e0714e0>>)
+[5.765s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[5.768s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[5.768s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[5.768s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[5.768s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[5.769s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[5.769s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/saqib/linorobot2_ws'
+[5.769s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[5.770s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[5.770s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[5.771s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[5.771s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[5.771s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[5.771s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[5.771s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[5.772s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[5.842s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[5.842s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[5.843s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[5.843s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[5.843s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[5.844s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[5.845s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[5.845s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[5.846s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[5.846s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[5.847s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[5.847s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[5.848s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[5.848s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[5.849s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[5.849s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[5.850s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[5.850s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[5.850s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[5.851s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[5.851s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[5.851s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[5.851s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[5.852s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[5.852s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[5.852s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[5.852s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[5.853s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[5.853s] Level 1:colcon.colcon_core.package_identification:_identify(src/ldlidar_sl_ros2) by extensions ['ignore', 'ignore_ament_install']
+[5.854s] Level 1:colcon.colcon_core.package_identification:_identify(src/ldlidar_sl_ros2) by extension 'ignore'
+[5.854s] Level 1:colcon.colcon_core.package_identification:_identify(src/ldlidar_sl_ros2) by extension 'ignore_ament_install'
+[5.855s] Level 1:colcon.colcon_core.package_identification:_identify(src/ldlidar_sl_ros2) by extensions ['colcon_pkg']
+[5.855s] Level 1:colcon.colcon_core.package_identification:_identify(src/ldlidar_sl_ros2) by extension 'colcon_pkg'
+[5.855s] Level 1:colcon.colcon_core.package_identification:_identify(src/ldlidar_sl_ros2) by extensions ['colcon_meta']
+[5.855s] Level 1:colcon.colcon_core.package_identification:_identify(src/ldlidar_sl_ros2) by extension 'colcon_meta'
+[5.856s] Level 1:colcon.colcon_core.package_identification:_identify(src/ldlidar_sl_ros2) by extensions ['ros']
+[5.856s] Level 1:colcon.colcon_core.package_identification:_identify(src/ldlidar_sl_ros2) by extension 'ros'
+[5.877s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ldlidar_sl_ros2' with type 'ros.ament_cmake' and name 'ldlidar_sl_ros2'
+[5.878s] Level 1:colcon.colcon_core.package_identification:_identify(src/linorobot2) by extensions ['ignore', 'ignore_ament_install']
+[5.879s] Level 1:colcon.colcon_core.package_identification:_identify(src/linorobot2) by extension 'ignore'
+[5.879s] Level 1:colcon.colcon_core.package_identification:_identify(src/linorobot2) by extension 'ignore_ament_install'
+[5.879s] Level 1:colcon.colcon_core.package_identification:_identify(src/linorobot2) by extensions ['colcon_pkg']
+[5.880s] Level 1:colcon.colcon_core.package_identification:_identify(src/linorobot2) by extension 'colcon_pkg'
+[5.880s] Level 1:colcon.colcon_core.package_identification:_identify(src/linorobot2) by extensions ['colcon_meta']
+[5.880s] Level 1:colcon.colcon_core.package_identification:_identify(src/linorobot2) by extension 'colcon_meta'
+[5.880s] Level 1:colcon.colcon_core.package_identification:_identify(src/linorobot2) by extensions ['ros']
+[5.881s] Level 1:colcon.colcon_core.package_identification:_identify(src/linorobot2) by extension 'ros'
+[5.881s] Level 1:colcon.colcon_core.package_identification:_identify(src/linorobot2) by extensions ['cmake', 'python']
+[5.882s] Level 1:colcon.colcon_core.package_identification:_identify(src/linorobot2) by extension 'cmake'
+[5.883s] Level 1:colcon.colcon_core.package_identification:_identify(src/linorobot2) by extension 'python'
+[5.884s] Level 1:colcon.colcon_core.package_identification:_identify(src/linorobot2) by extensions ['python_setup_py']
+[5.885s] Level 1:colcon.colcon_core.package_identification:_identify(src/linorobot2) by extension 'python_setup_py'
+[5.889s] Level 1:colcon.colcon_core.package_identification:_identify(src/linorobot2/docker) by extensions ['ignore', 'ignore_ament_install']
+[5.889s] Level 1:colcon.colcon_core.package_identification:_identify(src/linorobot2/docker) by extension 'ignore'
+[5.890s] Level 1:colcon.colcon_core.package_identification:_identify(src/linorobot2/docker) by extension 'ignore_ament_install'
+[5.890s] Level 1:colcon.colcon_core.package_identification:_identify(src/linorobot2/docker) by extensions ['colcon_pkg']
+[5.890s] Level 1:colcon.colcon_core.package_identification:_identify(src/linorobot2/docker) by extension 'colcon_pkg'
+[5.891s] Level 1:colcon.colcon_core.package_identification:_identify(src/linorobot2/docker) by extensions ['colcon_meta']
+[5.891s] Level 1:colcon.colcon_core.package_identification:_identify(src/linorobot2/docker) by extension 'colcon_meta'
+[5.891s] Level 1:colcon.colcon_core.package_identification:_identify(src/linorobot2/docker) by extensions ['ros']
+[5.892s] Level 1:colcon.colcon_core.package_identification:_identify(src/linorobot2/docker) by extension 'ros'
+[5.892s] Level 1:colcon.colcon_core.package_identification:_identify(src/linorobot2/docker) by extensions ['cmake', 'python']
+[5.892s] Level 1:colcon.colcon_core.package_identification:_identify(src/linorobot2/docker) by extension 'cmake'
+[5.893s] Level 1:colcon.colcon_core.package_identification:_identify(src/linorobot2/docker) by extension 'python'
+[5.893s] Level 1:colcon.colcon_core.package_identification:_identify(src/linorobot2/docker) by extensions ['python_setup_py']
+[5.893s] Level 1:colcon.colcon_core.package_identification:_identify(src/linorobot2/docker) by extension 'python_setup_py'
+[5.894s] Level 1:colcon.colcon_core.package_identification:_identify(src/linorobot2/docs) by extensions ['ignore', 'ignore_ament_install']
+[5.894s] Level 1:colcon.colcon_core.package_identification:_identify(src/linorobot2/docs) by extension 'ignore'
+[5.895s] Level 1:colcon.colcon_core.package_identification:_identify(src/linorobot2/docs) by extension 'ignore_ament_install'
+[5.895s] Level 1:colcon.colcon_core.package_identification:_identify(src/linorobot2/docs) by extensions ['colcon_pkg']
+[5.895s] Level 1:colcon.colcon_core.package_identification:_identify(src/linorobot2/docs) by extension 'colcon_pkg'
+[5.895s] Level 1:colcon.colcon_core.package_identification:_identify(src/linorobot2/docs) by extensions ['colcon_meta']
+[5.896s] Level 1:colcon.colcon_core.package_identification:_identify(src/linorobot2/docs) by extension 'colcon_meta'
+[5.896s] Level 1:colcon.colcon_core.package_identification:_identify(src/linorobot2/docs) by extensions ['ros']
+[5.896s] Level 1:colcon.colcon_core.package_identification:_identify(src/linorobot2/docs) by extension 'ros'
+[5.897s] Level 1:colcon.colcon_core.package_identification:_identify(src/linorobot2/docs) by extensions ['cmake', 'python']
+[5.897s] Level 1:colcon.colcon_core.package_identification:_identify(src/linorobot2/docs) by extension 'cmake'
+[5.897s] Level 1:colcon.colcon_core.package_identification:_identify(src/linorobot2/docs) by extension 'python'
+[5.898s] Level 1:colcon.colcon_core.package_identification:_identify(src/linorobot2/docs) by extensions ['python_setup_py']
+[5.898s] Level 1:colcon.colcon_core.package_identification:_identify(src/linorobot2/docs) by extension 'python_setup_py'
+[5.898s] Level 1:colcon.colcon_core.package_identification:_identify(src/linorobot2/linorobot2) by extensions ['ignore', 'ignore_ament_install']
+[5.899s] Level 1:colcon.colcon_core.package_identification:_identify(src/linorobot2/linorobot2) by extension 'ignore'
+[5.899s] Level 1:colcon.colcon_core.package_identification:_identify(src/linorobot2/linorobot2) by extension 'ignore_ament_install'
+[5.900s] Level 1:colcon.colcon_core.package_identification:_identify(src/linorobot2/linorobot2) by extensions ['colcon_pkg']
+[5.900s] Level 1:colcon.colcon_core.package_identification:_identify(src/linorobot2/linorobot2) by extension 'colcon_pkg'
+[5.900s] Level 1:colcon.colcon_core.package_identification:_identify(src/linorobot2/linorobot2) by extensions ['colcon_meta']
+[5.900s] Level 1:colcon.colcon_core.package_identification:_identify(src/linorobot2/linorobot2) by extension 'colcon_meta'
+[5.901s] Level 1:colcon.colcon_core.package_identification:_identify(src/linorobot2/linorobot2) by extensions ['ros']
+[5.901s] Level 1:colcon.colcon_core.package_identification:_identify(src/linorobot2/linorobot2) by extension 'ros'
+[5.903s] DEBUG:colcon.colcon_core.package_identification:Package 'src/linorobot2/linorobot2' with type 'ros.ament_cmake' and name 'linorobot2'
+[5.904s] Level 1:colcon.colcon_core.package_identification:_identify(src/linorobot2/linorobot2_base) by extensions ['ignore', 'ignore_ament_install']
+[5.905s] Level 1:colcon.colcon_core.package_identification:_identify(src/linorobot2/linorobot2_base) by extension 'ignore'
+[5.907s] Level 1:colcon.colcon_core.package_identification:_identify(src/linorobot2/linorobot2_base) by extension 'ignore_ament_install'
+[5.908s] Level 1:colcon.colcon_core.package_identification:_identify(src/linorobot2/linorobot2_base) by extensions ['colcon_pkg']
+[5.910s] Level 1:colcon.colcon_core.package_identification:_identify(src/linorobot2/linorobot2_base) by extension 'colcon_pkg'
+[5.912s] Level 1:colcon.colcon_core.package_identification:_identify(src/linorobot2/linorobot2_base) by extensions ['colcon_meta']
+[5.912s] Level 1:colcon.colcon_core.package_identification:_identify(src/linorobot2/linorobot2_base) by extension 'colcon_meta'
+[5.912s] Level 1:colcon.colcon_core.package_identification:_identify(src/linorobot2/linorobot2_base) by extensions ['ros']
+[5.913s] Level 1:colcon.colcon_core.package_identification:_identify(src/linorobot2/linorobot2_base) by extension 'ros'
+[5.915s] DEBUG:colcon.colcon_core.package_identification:Package 'src/linorobot2/linorobot2_base' with type 'ros.ament_cmake' and name 'linorobot2_base'
+[5.916s] Level 1:colcon.colcon_core.package_identification:_identify(src/linorobot2/linorobot2_bringup) by extensions ['ignore', 'ignore_ament_install']
+[5.917s] Level 1:colcon.colcon_core.package_identification:_identify(src/linorobot2/linorobot2_bringup) by extension 'ignore'
+[5.917s] Level 1:colcon.colcon_core.package_identification:_identify(src/linorobot2/linorobot2_bringup) by extension 'ignore_ament_install'
+[5.917s] Level 1:colcon.colcon_core.package_identification:_identify(src/linorobot2/linorobot2_bringup) by extensions ['colcon_pkg']
+[5.918s] Level 1:colcon.colcon_core.package_identification:_identify(src/linorobot2/linorobot2_bringup) by extension 'colcon_pkg'
+[5.918s] Level 1:colcon.colcon_core.package_identification:_identify(src/linorobot2/linorobot2_bringup) by extensions ['colcon_meta']
+[5.918s] Level 1:colcon.colcon_core.package_identification:_identify(src/linorobot2/linorobot2_bringup) by extension 'colcon_meta'
+[5.918s] Level 1:colcon.colcon_core.package_identification:_identify(src/linorobot2/linorobot2_bringup) by extensions ['ros']
+[5.919s] Level 1:colcon.colcon_core.package_identification:_identify(src/linorobot2/linorobot2_bringup) by extension 'ros'
+[5.921s] DEBUG:colcon.colcon_core.package_identification:Package 'src/linorobot2/linorobot2_bringup' with type 'ros.ament_cmake' and name 'linorobot2_bringup'
+[5.922s] Level 1:colcon.colcon_core.package_identification:_identify(src/linorobot2/linorobot2_description) by extensions ['ignore', 'ignore_ament_install']
+[5.923s] Level 1:colcon.colcon_core.package_identification:_identify(src/linorobot2/linorobot2_description) by extension 'ignore'
+[5.923s] Level 1:colcon.colcon_core.package_identification:_identify(src/linorobot2/linorobot2_description) by extension 'ignore_ament_install'
+[5.924s] Level 1:colcon.colcon_core.package_identification:_identify(src/linorobot2/linorobot2_description) by extensions ['colcon_pkg']
+[5.924s] Level 1:colcon.colcon_core.package_identification:_identify(src/linorobot2/linorobot2_description) by extension 'colcon_pkg'
+[5.924s] Level 1:colcon.colcon_core.package_identification:_identify(src/linorobot2/linorobot2_description) by extensions ['colcon_meta']
+[5.924s] Level 1:colcon.colcon_core.package_identification:_identify(src/linorobot2/linorobot2_description) by extension 'colcon_meta'
+[5.925s] Level 1:colcon.colcon_core.package_identification:_identify(src/linorobot2/linorobot2_description) by extensions ['ros']
+[5.925s] Level 1:colcon.colcon_core.package_identification:_identify(src/linorobot2/linorobot2_description) by extension 'ros'
+[5.929s] DEBUG:colcon.colcon_core.package_identification:Package 'src/linorobot2/linorobot2_description' with type 'ros.ament_cmake' and name 'linorobot2_description'
+[5.931s] Level 1:colcon.colcon_core.package_identification:_identify(src/linorobot2/linorobot2_gazebo) by extensions ['ignore', 'ignore_ament_install']
+[5.934s] Level 1:colcon.colcon_core.package_identification:_identify(src/linorobot2/linorobot2_gazebo) by extension 'ignore'
+[5.935s] Level 1:colcon.colcon_core.package_identification:_identify(src/linorobot2/linorobot2_gazebo) ignored
+[5.936s] Level 1:colcon.colcon_core.package_identification:_identify(src/linorobot2/linorobot2_navigation) by extensions ['ignore', 'ignore_ament_install']
+[5.937s] Level 1:colcon.colcon_core.package_identification:_identify(src/linorobot2/linorobot2_navigation) by extension 'ignore'
+[5.937s] Level 1:colcon.colcon_core.package_identification:_identify(src/linorobot2/linorobot2_navigation) by extension 'ignore_ament_install'
+[5.937s] Level 1:colcon.colcon_core.package_identification:_identify(src/linorobot2/linorobot2_navigation) by extensions ['colcon_pkg']
+[5.938s] Level 1:colcon.colcon_core.package_identification:_identify(src/linorobot2/linorobot2_navigation) by extension 'colcon_pkg'
+[5.938s] Level 1:colcon.colcon_core.package_identification:_identify(src/linorobot2/linorobot2_navigation) by extensions ['colcon_meta']
+[5.938s] Level 1:colcon.colcon_core.package_identification:_identify(src/linorobot2/linorobot2_navigation) by extension 'colcon_meta'
+[5.938s] Level 1:colcon.colcon_core.package_identification:_identify(src/linorobot2/linorobot2_navigation) by extensions ['ros']
+[5.939s] Level 1:colcon.colcon_core.package_identification:_identify(src/linorobot2/linorobot2_navigation) by extension 'ros'
+[5.941s] DEBUG:colcon.colcon_core.package_identification:Package 'src/linorobot2/linorobot2_navigation' with type 'ros.ament_cmake' and name 'linorobot2_navigation'
+[5.942s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro_ros_setup) by extensions ['ignore', 'ignore_ament_install']
+[5.943s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro_ros_setup) by extension 'ignore'
+[5.943s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro_ros_setup) by extension 'ignore_ament_install'
+[5.943s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro_ros_setup) by extensions ['colcon_pkg']
+[5.943s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro_ros_setup) by extension 'colcon_pkg'
+[5.944s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro_ros_setup) by extensions ['colcon_meta']
+[5.944s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro_ros_setup) by extension 'colcon_meta'
+[5.944s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro_ros_setup) by extensions ['ros']
+[5.944s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro_ros_setup) by extension 'ros'
+[5.948s] DEBUG:colcon.colcon_core.package_identification:Package 'src/micro_ros_setup' with type 'ros.ament_cmake' and name 'micro_ros_setup'
+[5.949s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros) by extensions ['ignore', 'ignore_ament_install']
+[5.950s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros) by extension 'ignore'
+[5.950s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros) by extension 'ignore_ament_install'
+[5.952s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros) by extensions ['colcon_pkg']
+[5.953s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros) by extension 'colcon_pkg'
+[5.955s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros) by extensions ['colcon_meta']
+[5.956s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros) by extension 'colcon_meta'
+[5.957s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros) by extensions ['ros']
+[5.958s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros) by extension 'ros'
+[5.958s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros) by extensions ['cmake', 'python']
+[5.959s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros) by extension 'cmake'
+[5.959s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros) by extension 'python'
+[5.959s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros) by extensions ['python_setup_py']
+[5.960s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros) by extension 'python_setup_py'
+[5.960s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent) by extensions ['ignore', 'ignore_ament_install']
+[5.961s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent) by extension 'ignore'
+[5.961s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent) by extension 'ignore_ament_install'
+[5.962s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent) by extensions ['colcon_pkg']
+[5.962s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent) by extension 'colcon_pkg'
+[5.962s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent) by extensions ['colcon_meta']
+[5.962s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent) by extension 'colcon_meta'
+[5.963s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent) by extensions ['ros']
+[5.963s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent) by extension 'ros'
+[5.963s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent) by extensions ['cmake', 'python']
+[5.964s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent) by extension 'cmake'
+[5.964s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent) by extension 'python'
+[5.964s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent) by extensions ['python_setup_py']
+[5.964s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent) by extension 'python_setup_py'
+[5.965s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/micro_ros_agent) by extensions ['ignore', 'ignore_ament_install']
+[5.966s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/micro_ros_agent) by extension 'ignore'
+[5.966s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/micro_ros_agent) by extension 'ignore_ament_install'
+[5.967s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/micro_ros_agent) by extensions ['colcon_pkg']
+[5.967s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/micro_ros_agent) by extension 'colcon_pkg'
+[5.967s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/micro_ros_agent) by extensions ['colcon_meta']
+[5.967s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/micro_ros_agent) by extension 'colcon_meta'
+[5.968s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/micro_ros_agent) by extensions ['ros']
+[5.968s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/micro_ros_agent) by extension 'ros'
+[5.972s] DEBUG:colcon.colcon_core.package_identification:Package 'src/uros/micro-ROS-Agent/micro_ros_agent' with type 'ros.ament_cmake' and name 'micro_ros_agent'
+[5.974s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap) by extensions ['ignore', 'ignore_ament_install']
+[5.975s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap) by extension 'ignore'
+[5.977s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap) by extension 'ignore_ament_install'
+[5.980s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap) by extensions ['colcon_pkg']
+[5.980s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap) by extension 'colcon_pkg'
+[5.981s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap) by extensions ['colcon_meta']
+[5.981s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap) by extension 'colcon_meta'
+[5.981s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap) by extensions ['ros']
+[5.981s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap) by extension 'ros'
+[5.982s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap) by extensions ['cmake', 'python']
+[5.982s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap) by extension 'cmake'
+[5.983s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap) by extension 'python'
+[5.983s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap) by extensions ['python_setup_py']
+[5.983s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap) by extension 'python_setup_py'
+[5.984s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/hooks) by extensions ['ignore', 'ignore_ament_install']
+[5.984s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/hooks) by extension 'ignore'
+[5.985s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/hooks) by extension 'ignore_ament_install'
+[5.985s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/hooks) by extensions ['colcon_pkg']
+[5.985s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/hooks) by extension 'colcon_pkg'
+[5.986s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/hooks) by extensions ['colcon_meta']
+[5.986s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/hooks) by extension 'colcon_meta'
+[5.986s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/hooks) by extensions ['ros']
+[5.986s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/hooks) by extension 'ros'
+[5.987s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/hooks) by extensions ['cmake', 'python']
+[5.987s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/hooks) by extension 'cmake'
+[5.987s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/hooks) by extension 'python'
+[5.988s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/hooks) by extensions ['python_setup_py']
+[5.988s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/hooks) by extension 'python_setup_py'
+[5.989s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/local) by extensions ['ignore', 'ignore_ament_install']
+[5.989s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/local) by extension 'ignore'
+[5.990s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/local) by extension 'ignore_ament_install'
+[5.990s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/local) by extensions ['colcon_pkg']
+[5.990s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/local) by extension 'colcon_pkg'
+[5.990s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/local) by extensions ['colcon_meta']
+[5.991s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/local) by extension 'colcon_meta'
+[5.991s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/local) by extensions ['ros']
+[5.991s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/local) by extension 'ros'
+[5.992s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/local) by extensions ['cmake', 'python']
+[5.992s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/local) by extension 'cmake'
+[5.992s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/local) by extension 'python'
+[5.993s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/local) by extensions ['python_setup_py']
+[5.993s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/local) by extension 'python_setup_py'
+[5.994s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro_ros_msgs) by extensions ['ignore', 'ignore_ament_install']
+[5.994s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro_ros_msgs) by extension 'ignore'
+[5.995s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro_ros_msgs) by extension 'ignore_ament_install'
+[5.995s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro_ros_msgs) by extensions ['colcon_pkg']
+[5.995s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro_ros_msgs) by extension 'colcon_pkg'
+[5.995s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro_ros_msgs) by extensions ['colcon_meta']
+[5.996s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro_ros_msgs) by extension 'colcon_meta'
+[5.996s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro_ros_msgs) by extensions ['ros']
+[5.996s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro_ros_msgs) by extension 'ros'
+[6.003s] DEBUG:colcon.colcon_core.package_identification:Package 'src/uros/micro_ros_msgs' with type 'ros.ament_cmake' and name 'micro_ros_msgs'
+[6.004s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[6.004s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[6.004s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[6.004s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[6.005s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[6.709s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[6.709s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[6.859s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 9 installed packages in /home/saqib/linorobot2_ws/install
+[6.951s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 263 installed packages in /opt/ros/humble
+[6.960s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[7.372s] Level 5:colcon.colcon_core.verb:set package 'ldlidar_sl_ros2' build argument 'cmake_args' from command line to 'None'
+[7.373s] Level 5:colcon.colcon_core.verb:set package 'ldlidar_sl_ros2' build argument 'cmake_target' from command line to 'None'
+[7.373s] Level 5:colcon.colcon_core.verb:set package 'ldlidar_sl_ros2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[7.373s] Level 5:colcon.colcon_core.verb:set package 'ldlidar_sl_ros2' build argument 'cmake_clean_cache' from command line to 'False'
+[7.373s] Level 5:colcon.colcon_core.verb:set package 'ldlidar_sl_ros2' build argument 'cmake_clean_first' from command line to 'False'
+[7.373s] Level 5:colcon.colcon_core.verb:set package 'ldlidar_sl_ros2' build argument 'cmake_force_configure' from command line to 'False'
+[7.373s] Level 5:colcon.colcon_core.verb:set package 'ldlidar_sl_ros2' build argument 'ament_cmake_args' from command line to 'None'
+[7.373s] Level 5:colcon.colcon_core.verb:set package 'ldlidar_sl_ros2' build argument 'catkin_cmake_args' from command line to 'None'
+[7.373s] Level 5:colcon.colcon_core.verb:set package 'ldlidar_sl_ros2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[7.374s] DEBUG:colcon.colcon_core.verb:Building package 'ldlidar_sl_ros2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/saqib/linorobot2_ws/build/ldlidar_sl_ros2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/saqib/linorobot2_ws/install/ldlidar_sl_ros2', 'merge_install': False, 'path': '/home/saqib/linorobot2_ws/src/ldlidar_sl_ros2', 'symlink_install': False, 'test_result_base': None}
+[7.445s] Level 5:colcon.colcon_core.verb:set package 'linorobot2' build argument 'cmake_args' from command line to 'None'
+[7.445s] Level 5:colcon.colcon_core.verb:set package 'linorobot2' build argument 'cmake_target' from command line to 'None'
+[7.445s] Level 5:colcon.colcon_core.verb:set package 'linorobot2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[7.445s] Level 5:colcon.colcon_core.verb:set package 'linorobot2' build argument 'cmake_clean_cache' from command line to 'False'
+[7.446s] Level 5:colcon.colcon_core.verb:set package 'linorobot2' build argument 'cmake_clean_first' from command line to 'False'
+[7.446s] Level 5:colcon.colcon_core.verb:set package 'linorobot2' build argument 'cmake_force_configure' from command line to 'False'
+[7.446s] Level 5:colcon.colcon_core.verb:set package 'linorobot2' build argument 'ament_cmake_args' from command line to 'None'
+[7.446s] Level 5:colcon.colcon_core.verb:set package 'linorobot2' build argument 'catkin_cmake_args' from command line to 'None'
+[7.446s] Level 5:colcon.colcon_core.verb:set package 'linorobot2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[7.446s] DEBUG:colcon.colcon_core.verb:Building package 'linorobot2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/saqib/linorobot2_ws/build/linorobot2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/saqib/linorobot2_ws/install/linorobot2', 'merge_install': False, 'path': '/home/saqib/linorobot2_ws/src/linorobot2/linorobot2', 'symlink_install': False, 'test_result_base': None}
+[7.515s] Level 5:colcon.colcon_core.verb:set package 'linorobot2_base' build argument 'cmake_args' from command line to 'None'
+[7.515s] Level 5:colcon.colcon_core.verb:set package 'linorobot2_base' build argument 'cmake_target' from command line to 'None'
+[7.516s] Level 5:colcon.colcon_core.verb:set package 'linorobot2_base' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[7.516s] Level 5:colcon.colcon_core.verb:set package 'linorobot2_base' build argument 'cmake_clean_cache' from command line to 'False'
+[7.516s] Level 5:colcon.colcon_core.verb:set package 'linorobot2_base' build argument 'cmake_clean_first' from command line to 'False'
+[7.516s] Level 5:colcon.colcon_core.verb:set package 'linorobot2_base' build argument 'cmake_force_configure' from command line to 'False'
+[7.516s] Level 5:colcon.colcon_core.verb:set package 'linorobot2_base' build argument 'ament_cmake_args' from command line to 'None'
+[7.516s] Level 5:colcon.colcon_core.verb:set package 'linorobot2_base' build argument 'catkin_cmake_args' from command line to 'None'
+[7.516s] Level 5:colcon.colcon_core.verb:set package 'linorobot2_base' build argument 'catkin_skip_building_tests' from command line to 'False'
+[7.517s] DEBUG:colcon.colcon_core.verb:Building package 'linorobot2_base' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/saqib/linorobot2_ws/build/linorobot2_base', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/saqib/linorobot2_ws/install/linorobot2_base', 'merge_install': False, 'path': '/home/saqib/linorobot2_ws/src/linorobot2/linorobot2_base', 'symlink_install': False, 'test_result_base': None}
+[7.586s] Level 5:colcon.colcon_core.verb:set package 'linorobot2_description' build argument 'cmake_args' from command line to 'None'
+[7.586s] Level 5:colcon.colcon_core.verb:set package 'linorobot2_description' build argument 'cmake_target' from command line to 'None'
+[7.586s] Level 5:colcon.colcon_core.verb:set package 'linorobot2_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[7.586s] Level 5:colcon.colcon_core.verb:set package 'linorobot2_description' build argument 'cmake_clean_cache' from command line to 'False'
+[7.586s] Level 5:colcon.colcon_core.verb:set package 'linorobot2_description' build argument 'cmake_clean_first' from command line to 'False'
+[7.586s] Level 5:colcon.colcon_core.verb:set package 'linorobot2_description' build argument 'cmake_force_configure' from command line to 'False'
+[7.586s] Level 5:colcon.colcon_core.verb:set package 'linorobot2_description' build argument 'ament_cmake_args' from command line to 'None'
+[7.587s] Level 5:colcon.colcon_core.verb:set package 'linorobot2_description' build argument 'catkin_cmake_args' from command line to 'None'
+[7.587s] Level 5:colcon.colcon_core.verb:set package 'linorobot2_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[7.587s] DEBUG:colcon.colcon_core.verb:Building package 'linorobot2_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/saqib/linorobot2_ws/build/linorobot2_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/saqib/linorobot2_ws/install/linorobot2_description', 'merge_install': False, 'path': '/home/saqib/linorobot2_ws/src/linorobot2/linorobot2_description', 'symlink_install': False, 'test_result_base': None}
+[7.657s] Level 5:colcon.colcon_core.verb:set package 'linorobot2_navigation' build argument 'cmake_args' from command line to 'None'
+[7.657s] Level 5:colcon.colcon_core.verb:set package 'linorobot2_navigation' build argument 'cmake_target' from command line to 'None'
+[7.657s] Level 5:colcon.colcon_core.verb:set package 'linorobot2_navigation' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[7.657s] Level 5:colcon.colcon_core.verb:set package 'linorobot2_navigation' build argument 'cmake_clean_cache' from command line to 'False'
+[7.657s] Level 5:colcon.colcon_core.verb:set package 'linorobot2_navigation' build argument 'cmake_clean_first' from command line to 'False'
+[7.658s] Level 5:colcon.colcon_core.verb:set package 'linorobot2_navigation' build argument 'cmake_force_configure' from command line to 'False'
+[7.658s] Level 5:colcon.colcon_core.verb:set package 'linorobot2_navigation' build argument 'ament_cmake_args' from command line to 'None'
+[7.658s] Level 5:colcon.colcon_core.verb:set package 'linorobot2_navigation' build argument 'catkin_cmake_args' from command line to 'None'
+[7.658s] Level 5:colcon.colcon_core.verb:set package 'linorobot2_navigation' build argument 'catkin_skip_building_tests' from command line to 'False'
+[7.658s] DEBUG:colcon.colcon_core.verb:Building package 'linorobot2_navigation' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/saqib/linorobot2_ws/build/linorobot2_navigation', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/saqib/linorobot2_ws/install/linorobot2_navigation', 'merge_install': False, 'path': '/home/saqib/linorobot2_ws/src/linorobot2/linorobot2_navigation', 'symlink_install': False, 'test_result_base': None}
+[7.727s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_msgs' build argument 'cmake_args' from command line to 'None'
+[7.727s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_msgs' build argument 'cmake_target' from command line to 'None'
+[7.727s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[7.728s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[7.728s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[7.728s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[7.728s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[7.728s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[7.728s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[7.729s] DEBUG:colcon.colcon_core.verb:Building package 'micro_ros_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/saqib/linorobot2_ws/build/micro_ros_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/saqib/linorobot2_ws/install/micro_ros_msgs', 'merge_install': False, 'path': '/home/saqib/linorobot2_ws/src/uros/micro_ros_msgs', 'symlink_install': False, 'test_result_base': None}
+[7.806s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_setup' build argument 'cmake_args' from command line to 'None'
+[7.806s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_setup' build argument 'cmake_target' from command line to 'None'
+[7.806s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_setup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[7.806s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_setup' build argument 'cmake_clean_cache' from command line to 'False'
+[7.807s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_setup' build argument 'cmake_clean_first' from command line to 'False'
+[7.807s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_setup' build argument 'cmake_force_configure' from command line to 'False'
+[7.807s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_setup' build argument 'ament_cmake_args' from command line to 'None'
+[7.807s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_setup' build argument 'catkin_cmake_args' from command line to 'None'
+[7.807s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_setup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[7.807s] DEBUG:colcon.colcon_core.verb:Building package 'micro_ros_setup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/saqib/linorobot2_ws/build/micro_ros_setup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/saqib/linorobot2_ws/install/micro_ros_setup', 'merge_install': False, 'path': '/home/saqib/linorobot2_ws/src/micro_ros_setup', 'symlink_install': False, 'test_result_base': None}
+[7.877s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_agent' build argument 'cmake_args' from command line to 'None'
+[7.878s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_agent' build argument 'cmake_target' from command line to 'None'
+[7.878s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_agent' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[7.878s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_agent' build argument 'cmake_clean_cache' from command line to 'False'
+[7.878s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_agent' build argument 'cmake_clean_first' from command line to 'False'
+[7.878s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_agent' build argument 'cmake_force_configure' from command line to 'False'
+[7.878s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_agent' build argument 'ament_cmake_args' from command line to 'None'
+[7.878s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_agent' build argument 'catkin_cmake_args' from command line to 'None'
+[7.878s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_agent' build argument 'catkin_skip_building_tests' from command line to 'False'
+[7.879s] DEBUG:colcon.colcon_core.verb:Building package 'micro_ros_agent' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/saqib/linorobot2_ws/build/micro_ros_agent', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/saqib/linorobot2_ws/install/micro_ros_agent', 'merge_install': False, 'path': '/home/saqib/linorobot2_ws/src/uros/micro-ROS-Agent/micro_ros_agent', 'symlink_install': False, 'test_result_base': None}
+[7.947s] Level 5:colcon.colcon_core.verb:set package 'linorobot2_bringup' build argument 'cmake_args' from command line to 'None'
+[7.948s] Level 5:colcon.colcon_core.verb:set package 'linorobot2_bringup' build argument 'cmake_target' from command line to 'None'
+[7.948s] Level 5:colcon.colcon_core.verb:set package 'linorobot2_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[7.948s] Level 5:colcon.colcon_core.verb:set package 'linorobot2_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[7.948s] Level 5:colcon.colcon_core.verb:set package 'linorobot2_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[7.948s] Level 5:colcon.colcon_core.verb:set package 'linorobot2_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[7.949s] Level 5:colcon.colcon_core.verb:set package 'linorobot2_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[7.949s] Level 5:colcon.colcon_core.verb:set package 'linorobot2_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[7.949s] Level 5:colcon.colcon_core.verb:set package 'linorobot2_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[7.949s] DEBUG:colcon.colcon_core.verb:Building package 'linorobot2_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/saqib/linorobot2_ws/build/linorobot2_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/saqib/linorobot2_ws/install/linorobot2_bringup', 'merge_install': False, 'path': '/home/saqib/linorobot2_ws/src/linorobot2/linorobot2_bringup', 'symlink_install': False, 'test_result_base': None}
+[8.018s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[8.133s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[8.134s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/saqib/linorobot2_ws/src/uros/micro_ros_msgs' with build type 'ament_cmake'
+[8.135s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/saqib/linorobot2_ws/src/uros/micro_ros_msgs'
+[8.254s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[8.255s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[8.255s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[8.660s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/saqib/linorobot2_ws/src/ldlidar_sl_ros2' with build type 'ament_cmake'
+[8.660s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/saqib/linorobot2_ws/src/ldlidar_sl_ros2'
+[8.793s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[8.793s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[9.226s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/saqib/linorobot2_ws/src/linorobot2/linorobot2' with build type 'ament_cmake'
+[9.228s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/saqib/linorobot2_ws/src/linorobot2/linorobot2'
+[9.375s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[9.375s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[9.794s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/saqib/linorobot2_ws/src/linorobot2/linorobot2_base' with build type 'ament_cmake'
+[9.795s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/saqib/linorobot2_ws/src/linorobot2/linorobot2_base'
+[9.899s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[9.900s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[10.370s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/saqib/linorobot2_ws/build/micro_ros_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/saqib/linorobot2_ws/build/micro_ros_msgs -- -j4 -l4
+[10.395s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/saqib/linorobot2_ws/build/ldlidar_sl_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/saqib/linorobot2_ws/build/ldlidar_sl_ros2 -- -j4 -l4
+[10.423s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/saqib/linorobot2_ws/build/linorobot2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/saqib/linorobot2_ws/build/linorobot2 -- -j4 -l4
+[10.509s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/saqib/linorobot2_ws/build/linorobot2_base': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/saqib/linorobot2_ws/build/linorobot2_base -- -j4 -l4
+[10.726s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/saqib/linorobot2_ws/build/linorobot2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/saqib/linorobot2_ws/build/linorobot2 -- -j4 -l4
+[11.021s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/saqib/linorobot2_ws/build/linorobot2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/saqib/linorobot2_ws/build/linorobot2
+[11.032s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/saqib/linorobot2_ws/build/linorobot2_base' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/saqib/linorobot2_ws/build/linorobot2_base -- -j4 -l4
+[11.055s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/saqib/linorobot2_ws/build/ldlidar_sl_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/saqib/linorobot2_ws/build/ldlidar_sl_ros2 -- -j4 -l4
+[11.098s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(linorobot2)
+[11.111s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/saqib/linorobot2_ws/build/linorobot2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/saqib/linorobot2_ws/build/linorobot2
+[11.413s] Level 1:colcon.colcon_core.environment:checking '/home/saqib/linorobot2_ws/install/linorobot2' for CMake module files
+[11.417s] Level 1:colcon.colcon_core.environment:checking '/home/saqib/linorobot2_ws/install/linorobot2' for CMake config files
+[11.421s] Level 1:colcon.colcon_core.shell:create_environment_hook('linorobot2', 'cmake_prefix_path')
+[11.573s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/saqib/linorobot2_ws/install/linorobot2/share/linorobot2/hook/cmake_prefix_path.ps1'
+[11.576s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/saqib/linorobot2_ws/install/linorobot2/share/linorobot2/hook/cmake_prefix_path.dsv'
+[11.579s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/saqib/linorobot2_ws/install/linorobot2/share/linorobot2/hook/cmake_prefix_path.sh'
+[11.593s] Level 1:colcon.colcon_core.environment:checking '/home/saqib/linorobot2_ws/install/linorobot2/bin'
+[11.594s] Level 1:colcon.colcon_core.environment:checking '/home/saqib/linorobot2_ws/install/linorobot2/lib/pkgconfig/linorobot2.pc'
+[11.596s] Level 1:colcon.colcon_core.environment:checking '/home/saqib/linorobot2_ws/install/linorobot2/lib/python3.10/site-packages'
+[11.597s] Level 1:colcon.colcon_core.environment:checking '/home/saqib/linorobot2_ws/install/linorobot2/bin'
+[11.735s] INFO:colcon.colcon_core.shell:Creating package script '/home/saqib/linorobot2_ws/install/linorobot2/share/linorobot2/package.ps1'
+[11.743s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/saqib/linorobot2_ws/install/linorobot2/share/linorobot2/package.dsv'
+[11.746s] INFO:colcon.colcon_core.shell:Creating package script '/home/saqib/linorobot2_ws/install/linorobot2/share/linorobot2/package.sh'
+[11.751s] INFO:colcon.colcon_core.shell:Creating package script '/home/saqib/linorobot2_ws/install/linorobot2/share/linorobot2/package.bash'
+[11.756s] INFO:colcon.colcon_core.shell:Creating package script '/home/saqib/linorobot2_ws/install/linorobot2/share/linorobot2/package.zsh'
+[11.760s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/saqib/linorobot2_ws/install/linorobot2/share/colcon-core/packages/linorobot2)
+[11.783s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/saqib/linorobot2_ws/build/linorobot2_base': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/saqib/linorobot2_ws/build/linorobot2_base
+[11.812s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/saqib/linorobot2_ws/build/ldlidar_sl_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/saqib/linorobot2_ws/build/ldlidar_sl_ros2
+[11.877s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ldlidar_sl_ros2)
+[11.948s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/saqib/linorobot2_ws/build/ldlidar_sl_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/saqib/linorobot2_ws/build/ldlidar_sl_ros2
+[12.044s] Level 1:colcon.colcon_core.environment:checking '/home/saqib/linorobot2_ws/install/ldlidar_sl_ros2' for CMake module files
+[12.048s] Level 1:colcon.colcon_core.environment:checking '/home/saqib/linorobot2_ws/install/ldlidar_sl_ros2' for CMake config files
+[12.052s] Level 1:colcon.colcon_core.shell:create_environment_hook('ldlidar_sl_ros2', 'cmake_prefix_path')
+[12.165s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/saqib/linorobot2_ws/install/ldlidar_sl_ros2/share/ldlidar_sl_ros2/hook/cmake_prefix_path.ps1'
+[12.167s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/saqib/linorobot2_ws/install/ldlidar_sl_ros2/share/ldlidar_sl_ros2/hook/cmake_prefix_path.dsv'
+[12.170s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/saqib/linorobot2_ws/install/ldlidar_sl_ros2/share/ldlidar_sl_ros2/hook/cmake_prefix_path.sh'
+[12.175s] Level 1:colcon.colcon_core.environment:checking '/home/saqib/linorobot2_ws/install/ldlidar_sl_ros2/lib'
+[12.176s] Level 1:colcon.colcon_core.environment:checking '/home/saqib/linorobot2_ws/install/ldlidar_sl_ros2/bin'
+[12.177s] Level 1:colcon.colcon_core.environment:checking '/home/saqib/linorobot2_ws/install/ldlidar_sl_ros2/lib/pkgconfig/ldlidar_sl_ros2.pc'
+[12.179s] Level 1:colcon.colcon_core.environment:checking '/home/saqib/linorobot2_ws/install/ldlidar_sl_ros2/lib/python3.10/site-packages'
+[12.181s] Level 1:colcon.colcon_core.environment:checking '/home/saqib/linorobot2_ws/install/ldlidar_sl_ros2/bin'
+[12.303s] INFO:colcon.colcon_core.shell:Creating package script '/home/saqib/linorobot2_ws/install/ldlidar_sl_ros2/share/ldlidar_sl_ros2/package.ps1'
+[12.308s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/saqib/linorobot2_ws/install/ldlidar_sl_ros2/share/ldlidar_sl_ros2/package.dsv'
+[12.311s] INFO:colcon.colcon_core.shell:Creating package script '/home/saqib/linorobot2_ws/install/ldlidar_sl_ros2/share/ldlidar_sl_ros2/package.sh'
+[12.314s] INFO:colcon.colcon_core.shell:Creating package script '/home/saqib/linorobot2_ws/install/ldlidar_sl_ros2/share/ldlidar_sl_ros2/package.bash'
+[12.317s] INFO:colcon.colcon_core.shell:Creating package script '/home/saqib/linorobot2_ws/install/ldlidar_sl_ros2/share/ldlidar_sl_ros2/package.zsh'
+[12.320s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/saqib/linorobot2_ws/install/ldlidar_sl_ros2/share/colcon-core/packages/ldlidar_sl_ros2)
+[12.465s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(linorobot2)
+[12.587s] Level 1:colcon.colcon_core.environment:checking '/home/saqib/linorobot2_ws/install/linorobot2' for CMake module files
+[12.591s] Level 1:colcon.colcon_core.environment:checking '/home/saqib/linorobot2_ws/install/linorobot2' for CMake config files
+[12.593s] Level 1:colcon.colcon_core.shell:create_environment_hook('linorobot2', 'cmake_prefix_path')
+[12.741s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/saqib/linorobot2_ws/install/linorobot2/share/linorobot2/hook/cmake_prefix_path.ps1'
+[12.745s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/saqib/linorobot2_ws/install/linorobot2/share/linorobot2/hook/cmake_prefix_path.dsv'
+[12.752s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/saqib/linorobot2_ws/install/linorobot2/share/linorobot2/hook/cmake_prefix_path.sh'
+[12.756s] Level 1:colcon.colcon_core.environment:checking '/home/saqib/linorobot2_ws/install/linorobot2/bin'
+[12.756s] Level 1:colcon.colcon_core.environment:checking '/home/saqib/linorobot2_ws/install/linorobot2/lib/pkgconfig/linorobot2.pc'
+[12.757s] Level 1:colcon.colcon_core.environment:checking '/home/saqib/linorobot2_ws/install/linorobot2/lib/python3.10/site-packages'
+[12.759s] Level 1:colcon.colcon_core.environment:checking '/home/saqib/linorobot2_ws/install/linorobot2/bin'
+[12.869s] INFO:colcon.colcon_core.shell:Creating package script '/home/saqib/linorobot2_ws/install/linorobot2/share/linorobot2/package.ps1'
+[12.872s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/saqib/linorobot2_ws/install/linorobot2/share/linorobot2/package.dsv'
+[12.875s] INFO:colcon.colcon_core.shell:Creating package script '/home/saqib/linorobot2_ws/install/linorobot2/share/linorobot2/package.sh'
+[12.877s] INFO:colcon.colcon_core.shell:Creating package script '/home/saqib/linorobot2_ws/install/linorobot2/share/linorobot2/package.bash'
+[12.880s] INFO:colcon.colcon_core.shell:Creating package script '/home/saqib/linorobot2_ws/install/linorobot2/share/linorobot2/package.zsh'
+[12.883s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/saqib/linorobot2_ws/install/linorobot2/share/colcon-core/packages/linorobot2)
+[12.887s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/saqib/linorobot2_ws/src/linorobot2/linorobot2_description' with build type 'ament_cmake'
+[12.887s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/saqib/linorobot2_ws/src/linorobot2/linorobot2_description'
+[13.007s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[13.007s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[13.357s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(linorobot2_base)
+[13.365s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/saqib/linorobot2_ws/build/linorobot2_base' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/saqib/linorobot2_ws/build/linorobot2_base
+[13.497s] Level 1:colcon.colcon_core.environment:checking '/home/saqib/linorobot2_ws/install/linorobot2_base' for CMake module files
+[13.500s] Level 1:colcon.colcon_core.environment:checking '/home/saqib/linorobot2_ws/install/linorobot2_base' for CMake config files
+[13.503s] Level 1:colcon.colcon_core.shell:create_environment_hook('linorobot2_base', 'cmake_prefix_path')
+[13.610s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/saqib/linorobot2_ws/install/linorobot2_base/share/linorobot2_base/hook/cmake_prefix_path.ps1'
+[13.612s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/saqib/linorobot2_ws/install/linorobot2_base/share/linorobot2_base/hook/cmake_prefix_path.dsv'
+[13.614s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/saqib/linorobot2_ws/install/linorobot2_base/share/linorobot2_base/hook/cmake_prefix_path.sh'
+[13.617s] Level 1:colcon.colcon_core.environment:checking '/home/saqib/linorobot2_ws/install/linorobot2_base/bin'
+[13.619s] Level 1:colcon.colcon_core.environment:checking '/home/saqib/linorobot2_ws/install/linorobot2_base/lib/pkgconfig/linorobot2_base.pc'
+[13.620s] Level 1:colcon.colcon_core.environment:checking '/home/saqib/linorobot2_ws/install/linorobot2_base/lib/python3.10/site-packages'
+[13.621s] Level 1:colcon.colcon_core.environment:checking '/home/saqib/linorobot2_ws/install/linorobot2_base/bin'
+[13.723s] INFO:colcon.colcon_core.shell:Creating package script '/home/saqib/linorobot2_ws/install/linorobot2_base/share/linorobot2_base/package.ps1'
+[13.727s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/saqib/linorobot2_ws/install/linorobot2_base/share/linorobot2_base/package.dsv'
+[13.729s] INFO:colcon.colcon_core.shell:Creating package script '/home/saqib/linorobot2_ws/install/linorobot2_base/share/linorobot2_base/package.sh'
+[13.731s] INFO:colcon.colcon_core.shell:Creating package script '/home/saqib/linorobot2_ws/install/linorobot2_base/share/linorobot2_base/package.bash'
+[13.733s] INFO:colcon.colcon_core.shell:Creating package script '/home/saqib/linorobot2_ws/install/linorobot2_base/share/linorobot2_base/package.zsh'
+[13.735s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/saqib/linorobot2_ws/install/linorobot2_base/share/colcon-core/packages/linorobot2_base)
+[13.939s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ldlidar_sl_ros2)
+[14.203s] Level 1:colcon.colcon_core.environment:checking '/home/saqib/linorobot2_ws/install/ldlidar_sl_ros2' for CMake module files
+[14.208s] Level 1:colcon.colcon_core.environment:checking '/home/saqib/linorobot2_ws/install/ldlidar_sl_ros2' for CMake config files
+[14.211s] Level 1:colcon.colcon_core.shell:create_environment_hook('ldlidar_sl_ros2', 'cmake_prefix_path')
+[14.330s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/saqib/linorobot2_ws/install/ldlidar_sl_ros2/share/ldlidar_sl_ros2/hook/cmake_prefix_path.ps1'
+[14.332s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/saqib/linorobot2_ws/install/ldlidar_sl_ros2/share/ldlidar_sl_ros2/hook/cmake_prefix_path.dsv'
+[14.334s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/saqib/linorobot2_ws/install/ldlidar_sl_ros2/share/ldlidar_sl_ros2/hook/cmake_prefix_path.sh'
+[14.338s] Level 1:colcon.colcon_core.environment:checking '/home/saqib/linorobot2_ws/install/ldlidar_sl_ros2/lib'
+[14.339s] Level 1:colcon.colcon_core.environment:checking '/home/saqib/linorobot2_ws/install/ldlidar_sl_ros2/bin'
+[14.340s] Level 1:colcon.colcon_core.environment:checking '/home/saqib/linorobot2_ws/install/ldlidar_sl_ros2/lib/pkgconfig/ldlidar_sl_ros2.pc'
+[14.341s] Level 1:colcon.colcon_core.environment:checking '/home/saqib/linorobot2_ws/install/ldlidar_sl_ros2/lib/python3.10/site-packages'
+[14.342s] Level 1:colcon.colcon_core.environment:checking '/home/saqib/linorobot2_ws/install/ldlidar_sl_ros2/bin'
+[14.468s] INFO:colcon.colcon_core.shell:Creating package script '/home/saqib/linorobot2_ws/install/ldlidar_sl_ros2/share/ldlidar_sl_ros2/package.ps1'
+[14.471s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/saqib/linorobot2_ws/install/ldlidar_sl_ros2/share/ldlidar_sl_ros2/package.dsv'
+[14.473s] INFO:colcon.colcon_core.shell:Creating package script '/home/saqib/linorobot2_ws/install/ldlidar_sl_ros2/share/ldlidar_sl_ros2/package.sh'
+[14.476s] INFO:colcon.colcon_core.shell:Creating package script '/home/saqib/linorobot2_ws/install/ldlidar_sl_ros2/share/ldlidar_sl_ros2/package.bash'
+[14.478s] INFO:colcon.colcon_core.shell:Creating package script '/home/saqib/linorobot2_ws/install/ldlidar_sl_ros2/share/ldlidar_sl_ros2/package.zsh'
+[14.481s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/saqib/linorobot2_ws/install/ldlidar_sl_ros2/share/colcon-core/packages/ldlidar_sl_ros2)
+[14.486s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/saqib/linorobot2_ws/src/linorobot2/linorobot2_navigation' with build type 'ament_cmake'
+[14.487s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/saqib/linorobot2_ws/src/linorobot2/linorobot2_navigation'
+[14.614s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[14.614s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[15.065s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/saqib/linorobot2_ws/build/linorobot2_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/saqib/linorobot2_ws/build/linorobot2_description -- -j4 -l4
+[15.177s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(linorobot2_base)
+[15.286s] Level 1:colcon.colcon_core.environment:checking '/home/saqib/linorobot2_ws/install/linorobot2_base' for CMake module files
+[15.289s] Level 1:colcon.colcon_core.environment:checking '/home/saqib/linorobot2_ws/install/linorobot2_base' for CMake config files
+[15.291s] Level 1:colcon.colcon_core.shell:create_environment_hook('linorobot2_base', 'cmake_prefix_path')
+[15.380s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/saqib/linorobot2_ws/install/linorobot2_base/share/linorobot2_base/hook/cmake_prefix_path.ps1'
+[15.382s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/saqib/linorobot2_ws/install/linorobot2_base/share/linorobot2_base/hook/cmake_prefix_path.dsv'
+[15.384s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/saqib/linorobot2_ws/install/linorobot2_base/share/linorobot2_base/hook/cmake_prefix_path.sh'
+[15.387s] Level 1:colcon.colcon_core.environment:checking '/home/saqib/linorobot2_ws/install/linorobot2_base/bin'
+[15.387s] Level 1:colcon.colcon_core.environment:checking '/home/saqib/linorobot2_ws/install/linorobot2_base/lib/pkgconfig/linorobot2_base.pc'
+[15.389s] Level 1:colcon.colcon_core.environment:checking '/home/saqib/linorobot2_ws/install/linorobot2_base/lib/python3.10/site-packages'
+[15.389s] Level 1:colcon.colcon_core.environment:checking '/home/saqib/linorobot2_ws/install/linorobot2_base/bin'
+[15.479s] INFO:colcon.colcon_core.shell:Creating package script '/home/saqib/linorobot2_ws/install/linorobot2_base/share/linorobot2_base/package.ps1'
+[15.482s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/saqib/linorobot2_ws/install/linorobot2_base/share/linorobot2_base/package.dsv'
+[15.484s] INFO:colcon.colcon_core.shell:Creating package script '/home/saqib/linorobot2_ws/install/linorobot2_base/share/linorobot2_base/package.sh'
+[15.486s] INFO:colcon.colcon_core.shell:Creating package script '/home/saqib/linorobot2_ws/install/linorobot2_base/share/linorobot2_base/package.bash'
+[15.488s] INFO:colcon.colcon_core.shell:Creating package script '/home/saqib/linorobot2_ws/install/linorobot2_base/share/linorobot2_base/package.zsh'
+[15.490s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/saqib/linorobot2_ws/install/linorobot2_base/share/colcon-core/packages/linorobot2_base)
+[15.493s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/saqib/linorobot2_ws/src/micro_ros_setup' with build type 'ament_cmake'
+[15.494s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/saqib/linorobot2_ws/src/micro_ros_setup'
+[15.598s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[15.598s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[15.978s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/saqib/linorobot2_ws/build/linorobot2_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/saqib/linorobot2_ws/build/linorobot2_navigation -- -j4 -l4
+[15.980s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/saqib/linorobot2_ws/build/micro_ros_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/saqib/linorobot2_ws/build/micro_ros_msgs -- -j4 -l4
+[15.991s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/saqib/linorobot2_ws/build/linorobot2_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/saqib/linorobot2_ws/build/linorobot2_description -- -j4 -l4
+[16.017s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/saqib/linorobot2_ws/build/micro_ros_setup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/saqib/linorobot2_ws/build/micro_ros_setup -- -j4 -l4
+[16.246s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/saqib/linorobot2_ws/build/linorobot2_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/saqib/linorobot2_ws/build/linorobot2_description
+[16.277s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/saqib/linorobot2_ws/build/linorobot2_navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/saqib/linorobot2_ws/build/linorobot2_navigation -- -j4 -l4
+[16.301s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/saqib/linorobot2_ws/build/micro_ros_setup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/saqib/linorobot2_ws/build/micro_ros_setup -- -j4 -l4
+[16.368s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(linorobot2_description)
+[16.393s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/saqib/linorobot2_ws/build/linorobot2_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/saqib/linorobot2_ws/build/linorobot2_description
+[16.522s] Level 1:colcon.colcon_core.environment:checking '/home/saqib/linorobot2_ws/install/linorobot2_description' for CMake module files
+[16.526s] Level 1:colcon.colcon_core.environment:checking '/home/saqib/linorobot2_ws/install/linorobot2_description' for CMake config files
+[16.530s] Level 1:colcon.colcon_core.shell:create_environment_hook('linorobot2_description', 'cmake_prefix_path')
+[16.626s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/saqib/linorobot2_ws/install/linorobot2_description/share/linorobot2_description/hook/cmake_prefix_path.ps1'
+[16.629s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/saqib/linorobot2_ws/install/linorobot2_description/share/linorobot2_description/hook/cmake_prefix_path.dsv'
+[16.631s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/saqib/linorobot2_ws/install/linorobot2_description/share/linorobot2_description/hook/cmake_prefix_path.sh'
+[16.634s] Level 1:colcon.colcon_core.environment:checking '/home/saqib/linorobot2_ws/install/linorobot2_description/bin'
+[16.635s] Level 1:colcon.colcon_core.environment:checking '/home/saqib/linorobot2_ws/install/linorobot2_description/lib/pkgconfig/linorobot2_description.pc'
+[16.637s] Level 1:colcon.colcon_core.environment:checking '/home/saqib/linorobot2_ws/install/linorobot2_description/lib/python3.10/site-packages'
+[16.639s] Level 1:colcon.colcon_core.environment:checking '/home/saqib/linorobot2_ws/install/linorobot2_description/bin'
+[16.734s] INFO:colcon.colcon_core.shell:Creating package script '/home/saqib/linorobot2_ws/install/linorobot2_description/share/linorobot2_description/package.ps1'
+[16.738s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/saqib/linorobot2_ws/install/linorobot2_description/share/linorobot2_description/package.dsv'
+[16.741s] INFO:colcon.colcon_core.shell:Creating package script '/home/saqib/linorobot2_ws/install/linorobot2_description/share/linorobot2_description/package.sh'
+[16.749s] INFO:colcon.colcon_core.shell:Creating package script '/home/saqib/linorobot2_ws/install/linorobot2_description/share/linorobot2_description/package.bash'
+[16.751s] INFO:colcon.colcon_core.shell:Creating package script '/home/saqib/linorobot2_ws/install/linorobot2_description/share/linorobot2_description/package.zsh'
+[16.753s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/saqib/linorobot2_ws/install/linorobot2_description/share/colcon-core/packages/linorobot2_description)
+[16.798s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/saqib/linorobot2_ws/build/linorobot2_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/saqib/linorobot2_ws/build/linorobot2_navigation
+[16.807s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/saqib/linorobot2_ws/build/micro_ros_setup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/saqib/linorobot2_ws/build/micro_ros_setup
+[16.899s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(linorobot2_navigation)
+[16.988s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/saqib/linorobot2_ws/build/linorobot2_navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/saqib/linorobot2_ws/build/linorobot2_navigation
+[17.184s] Level 1:colcon.colcon_core.environment:checking '/home/saqib/linorobot2_ws/install/linorobot2_navigation' for CMake module files
+[17.188s] Level 1:colcon.colcon_core.environment:checking '/home/saqib/linorobot2_ws/install/linorobot2_navigation' for CMake config files
+[17.193s] Level 1:colcon.colcon_core.shell:create_environment_hook('linorobot2_navigation', 'cmake_prefix_path')
+[17.277s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/saqib/linorobot2_ws/install/linorobot2_navigation/share/linorobot2_navigation/hook/cmake_prefix_path.ps1'
+[17.280s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/saqib/linorobot2_ws/install/linorobot2_navigation/share/linorobot2_navigation/hook/cmake_prefix_path.dsv'
+[17.283s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/saqib/linorobot2_ws/install/linorobot2_navigation/share/linorobot2_navigation/hook/cmake_prefix_path.sh'
+[17.286s] Level 1:colcon.colcon_core.environment:checking '/home/saqib/linorobot2_ws/install/linorobot2_navigation/bin'
+[17.287s] Level 1:colcon.colcon_core.environment:checking '/home/saqib/linorobot2_ws/install/linorobot2_navigation/lib/pkgconfig/linorobot2_navigation.pc'
+[17.288s] Level 1:colcon.colcon_core.environment:checking '/home/saqib/linorobot2_ws/install/linorobot2_navigation/lib/python3.10/site-packages'
+[17.290s] Level 1:colcon.colcon_core.environment:checking '/home/saqib/linorobot2_ws/install/linorobot2_navigation/bin'
+[17.373s] INFO:colcon.colcon_core.shell:Creating package script '/home/saqib/linorobot2_ws/install/linorobot2_navigation/share/linorobot2_navigation/package.ps1'
+[17.376s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/saqib/linorobot2_ws/install/linorobot2_navigation/share/linorobot2_navigation/package.dsv'
+[17.378s] INFO:colcon.colcon_core.shell:Creating package script '/home/saqib/linorobot2_ws/install/linorobot2_navigation/share/linorobot2_navigation/package.sh'
+[17.381s] INFO:colcon.colcon_core.shell:Creating package script '/home/saqib/linorobot2_ws/install/linorobot2_navigation/share/linorobot2_navigation/package.bash'
+[17.383s] INFO:colcon.colcon_core.shell:Creating package script '/home/saqib/linorobot2_ws/install/linorobot2_navigation/share/linorobot2_navigation/package.zsh'
+[17.387s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/saqib/linorobot2_ws/install/linorobot2_navigation/share/colcon-core/packages/linorobot2_navigation)
+[17.398s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(micro_ros_setup)
+[17.399s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/saqib/linorobot2_ws/build/micro_ros_setup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/saqib/linorobot2_ws/build/micro_ros_setup
+[17.502s] Level 1:colcon.colcon_core.environment:checking '/home/saqib/linorobot2_ws/install/micro_ros_setup' for CMake module files
+[17.506s] Level 1:colcon.colcon_core.environment:checking '/home/saqib/linorobot2_ws/install/micro_ros_setup' for CMake config files
+[17.509s] Level 1:colcon.colcon_core.shell:create_environment_hook('micro_ros_setup', 'cmake_prefix_path')
+[17.603s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/saqib/linorobot2_ws/install/micro_ros_setup/share/micro_ros_setup/hook/cmake_prefix_path.ps1'
+[17.605s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/saqib/linorobot2_ws/install/micro_ros_setup/share/micro_ros_setup/hook/cmake_prefix_path.dsv'
+[17.607s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/saqib/linorobot2_ws/install/micro_ros_setup/share/micro_ros_setup/hook/cmake_prefix_path.sh'
+[17.610s] Level 1:colcon.colcon_core.environment:checking '/home/saqib/linorobot2_ws/install/micro_ros_setup/lib'
+[17.610s] Level 1:colcon.colcon_core.environment:checking '/home/saqib/linorobot2_ws/install/micro_ros_setup/bin'
+[17.610s] Level 1:colcon.colcon_core.environment:checking '/home/saqib/linorobot2_ws/install/micro_ros_setup/lib/pkgconfig/micro_ros_setup.pc'
+[17.612s] Level 1:colcon.colcon_core.environment:checking '/home/saqib/linorobot2_ws/install/micro_ros_setup/lib/python3.10/site-packages'
+[17.613s] Level 1:colcon.colcon_core.environment:checking '/home/saqib/linorobot2_ws/install/micro_ros_setup/bin'
+[17.709s] INFO:colcon.colcon_core.shell:Creating package script '/home/saqib/linorobot2_ws/install/micro_ros_setup/share/micro_ros_setup/package.ps1'
+[17.712s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/saqib/linorobot2_ws/install/micro_ros_setup/share/micro_ros_setup/package.dsv'
+[17.714s] INFO:colcon.colcon_core.shell:Creating package script '/home/saqib/linorobot2_ws/install/micro_ros_setup/share/micro_ros_setup/package.sh'
+[17.716s] INFO:colcon.colcon_core.shell:Creating package script '/home/saqib/linorobot2_ws/install/micro_ros_setup/share/micro_ros_setup/package.bash'
+[17.718s] INFO:colcon.colcon_core.shell:Creating package script '/home/saqib/linorobot2_ws/install/micro_ros_setup/share/micro_ros_setup/package.zsh'
+[17.719s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/saqib/linorobot2_ws/install/micro_ros_setup/share/colcon-core/packages/micro_ros_setup)
+[17.735s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/saqib/linorobot2_ws/build/micro_ros_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/saqib/linorobot2_ws/build/micro_ros_msgs
+[17.857s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(linorobot2_description)
+[17.980s] Level 1:colcon.colcon_core.environment:checking '/home/saqib/linorobot2_ws/install/linorobot2_description' for CMake module files
+[17.984s] Level 1:colcon.colcon_core.environment:checking '/home/saqib/linorobot2_ws/install/linorobot2_description' for CMake config files
+[17.988s] Level 1:colcon.colcon_core.shell:create_environment_hook('linorobot2_description', 'cmake_prefix_path')
+[18.109s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/saqib/linorobot2_ws/install/linorobot2_description/share/linorobot2_description/hook/cmake_prefix_path.ps1'
+[18.112s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/saqib/linorobot2_ws/install/linorobot2_description/share/linorobot2_description/hook/cmake_prefix_path.dsv'
+[18.114s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/saqib/linorobot2_ws/install/linorobot2_description/share/linorobot2_description/hook/cmake_prefix_path.sh'
+[18.119s] Level 1:colcon.colcon_core.environment:checking '/home/saqib/linorobot2_ws/install/linorobot2_description/bin'
+[18.119s] Level 1:colcon.colcon_core.environment:checking '/home/saqib/linorobot2_ws/install/linorobot2_description/lib/pkgconfig/linorobot2_description.pc'
+[18.121s] Level 1:colcon.colcon_core.environment:checking '/home/saqib/linorobot2_ws/install/linorobot2_description/lib/python3.10/site-packages'
+[18.122s] Level 1:colcon.colcon_core.environment:checking '/home/saqib/linorobot2_ws/install/linorobot2_description/bin'
+[18.212s] INFO:colcon.colcon_core.shell:Creating package script '/home/saqib/linorobot2_ws/install/linorobot2_description/share/linorobot2_description/package.ps1'
+[18.215s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/saqib/linorobot2_ws/install/linorobot2_description/share/linorobot2_description/package.dsv'
+[18.217s] INFO:colcon.colcon_core.shell:Creating package script '/home/saqib/linorobot2_ws/install/linorobot2_description/share/linorobot2_description/package.sh'
+[18.220s] INFO:colcon.colcon_core.shell:Creating package script '/home/saqib/linorobot2_ws/install/linorobot2_description/share/linorobot2_description/package.bash'
+[18.223s] INFO:colcon.colcon_core.shell:Creating package script '/home/saqib/linorobot2_ws/install/linorobot2_description/share/linorobot2_description/package.zsh'
+[18.225s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/saqib/linorobot2_ws/install/linorobot2_description/share/colcon-core/packages/linorobot2_description)
+[18.464s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(linorobot2_navigation)
+[18.594s] Level 1:colcon.colcon_core.environment:checking '/home/saqib/linorobot2_ws/install/linorobot2_navigation' for CMake module files
+[18.598s] Level 1:colcon.colcon_core.environment:checking '/home/saqib/linorobot2_ws/install/linorobot2_navigation' for CMake config files
+[18.602s] Level 1:colcon.colcon_core.shell:create_environment_hook('linorobot2_navigation', 'cmake_prefix_path')
+[18.683s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/saqib/linorobot2_ws/install/linorobot2_navigation/share/linorobot2_navigation/hook/cmake_prefix_path.ps1'
+[18.688s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/saqib/linorobot2_ws/install/linorobot2_navigation/share/linorobot2_navigation/hook/cmake_prefix_path.dsv'
+[18.690s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/saqib/linorobot2_ws/install/linorobot2_navigation/share/linorobot2_navigation/hook/cmake_prefix_path.sh'
+[18.694s] Level 1:colcon.colcon_core.environment:checking '/home/saqib/linorobot2_ws/install/linorobot2_navigation/bin'
+[18.694s] Level 1:colcon.colcon_core.environment:checking '/home/saqib/linorobot2_ws/install/linorobot2_navigation/lib/pkgconfig/linorobot2_navigation.pc'
+[18.695s] Level 1:colcon.colcon_core.environment:checking '/home/saqib/linorobot2_ws/install/linorobot2_navigation/lib/python3.10/site-packages'
+[18.696s] Level 1:colcon.colcon_core.environment:checking '/home/saqib/linorobot2_ws/install/linorobot2_navigation/bin'
+[18.775s] INFO:colcon.colcon_core.shell:Creating package script '/home/saqib/linorobot2_ws/install/linorobot2_navigation/share/linorobot2_navigation/package.ps1'
+[18.779s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/saqib/linorobot2_ws/install/linorobot2_navigation/share/linorobot2_navigation/package.dsv'
+[18.785s] INFO:colcon.colcon_core.shell:Creating package script '/home/saqib/linorobot2_ws/install/linorobot2_navigation/share/linorobot2_navigation/package.sh'
+[18.790s] INFO:colcon.colcon_core.shell:Creating package script '/home/saqib/linorobot2_ws/install/linorobot2_navigation/share/linorobot2_navigation/package.bash'
+[18.793s] INFO:colcon.colcon_core.shell:Creating package script '/home/saqib/linorobot2_ws/install/linorobot2_navigation/share/linorobot2_navigation/package.zsh'
+[18.795s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/saqib/linorobot2_ws/install/linorobot2_navigation/share/colcon-core/packages/linorobot2_navigation)
+[18.912s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(micro_ros_setup)
+[19.027s] Level 1:colcon.colcon_core.environment:checking '/home/saqib/linorobot2_ws/install/micro_ros_setup' for CMake module files
+[19.031s] Level 1:colcon.colcon_core.environment:checking '/home/saqib/linorobot2_ws/install/micro_ros_setup' for CMake config files
+[19.034s] Level 1:colcon.colcon_core.shell:create_environment_hook('micro_ros_setup', 'cmake_prefix_path')
+[19.137s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/saqib/linorobot2_ws/install/micro_ros_setup/share/micro_ros_setup/hook/cmake_prefix_path.ps1'
+[19.139s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/saqib/linorobot2_ws/install/micro_ros_setup/share/micro_ros_setup/hook/cmake_prefix_path.dsv'
+[19.142s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/saqib/linorobot2_ws/install/micro_ros_setup/share/micro_ros_setup/hook/cmake_prefix_path.sh'
+[19.145s] Level 1:colcon.colcon_core.environment:checking '/home/saqib/linorobot2_ws/install/micro_ros_setup/lib'
+[19.145s] Level 1:colcon.colcon_core.environment:checking '/home/saqib/linorobot2_ws/install/micro_ros_setup/bin'
+[19.146s] Level 1:colcon.colcon_core.environment:checking '/home/saqib/linorobot2_ws/install/micro_ros_setup/lib/pkgconfig/micro_ros_setup.pc'
+[19.147s] Level 1:colcon.colcon_core.environment:checking '/home/saqib/linorobot2_ws/install/micro_ros_setup/lib/python3.10/site-packages'
+[19.148s] Level 1:colcon.colcon_core.environment:checking '/home/saqib/linorobot2_ws/install/micro_ros_setup/bin'
+[19.236s] INFO:colcon.colcon_core.shell:Creating package script '/home/saqib/linorobot2_ws/install/micro_ros_setup/share/micro_ros_setup/package.ps1'
+[19.239s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/saqib/linorobot2_ws/install/micro_ros_setup/share/micro_ros_setup/package.dsv'
+[19.242s] INFO:colcon.colcon_core.shell:Creating package script '/home/saqib/linorobot2_ws/install/micro_ros_setup/share/micro_ros_setup/package.sh'
+[19.244s] INFO:colcon.colcon_core.shell:Creating package script '/home/saqib/linorobot2_ws/install/micro_ros_setup/share/micro_ros_setup/package.bash'
+[19.246s] INFO:colcon.colcon_core.shell:Creating package script '/home/saqib/linorobot2_ws/install/micro_ros_setup/share/micro_ros_setup/package.zsh'
+[19.248s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/saqib/linorobot2_ws/install/micro_ros_setup/share/colcon-core/packages/micro_ros_setup)
+[19.253s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(micro_ros_msgs)
+[19.255s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/saqib/linorobot2_ws/build/micro_ros_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/saqib/linorobot2_ws/build/micro_ros_msgs
+[19.359s] Level 1:colcon.colcon_core.environment:checking '/home/saqib/linorobot2_ws/install/micro_ros_msgs' for CMake module files
+[19.365s] Level 1:colcon.colcon_core.environment:checking '/home/saqib/linorobot2_ws/install/micro_ros_msgs' for CMake config files
+[19.370s] Level 1:colcon.colcon_core.shell:create_environment_hook('micro_ros_msgs', 'cmake_prefix_path')
+[19.482s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/saqib/linorobot2_ws/install/micro_ros_msgs/share/micro_ros_msgs/hook/cmake_prefix_path.ps1'
+[19.484s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/saqib/linorobot2_ws/install/micro_ros_msgs/share/micro_ros_msgs/hook/cmake_prefix_path.dsv'
+[19.487s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/saqib/linorobot2_ws/install/micro_ros_msgs/share/micro_ros_msgs/hook/cmake_prefix_path.sh'
+[19.492s] Level 1:colcon.colcon_core.environment:checking '/home/saqib/linorobot2_ws/install/micro_ros_msgs/lib'
+[19.493s] Level 1:colcon.colcon_core.shell:create_environment_hook('micro_ros_msgs', 'ld_library_path_lib')
+[19.599s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/saqib/linorobot2_ws/install/micro_ros_msgs/share/micro_ros_msgs/hook/ld_library_path_lib.ps1'
+[19.603s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/saqib/linorobot2_ws/install/micro_ros_msgs/share/micro_ros_msgs/hook/ld_library_path_lib.dsv'
+[19.606s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/saqib/linorobot2_ws/install/micro_ros_msgs/share/micro_ros_msgs/hook/ld_library_path_lib.sh'
+[19.608s] Level 1:colcon.colcon_core.environment:checking '/home/saqib/linorobot2_ws/install/micro_ros_msgs/bin'
+[19.609s] Level 1:colcon.colcon_core.environment:checking '/home/saqib/linorobot2_ws/install/micro_ros_msgs/lib/pkgconfig/micro_ros_msgs.pc'
+[19.610s] Level 1:colcon.colcon_core.environment:checking '/home/saqib/linorobot2_ws/install/micro_ros_msgs/lib/python3.10/site-packages'
+[19.611s] Level 1:colcon.colcon_core.environment:checking '/home/saqib/linorobot2_ws/install/micro_ros_msgs/bin'
+[19.691s] INFO:colcon.colcon_core.shell:Creating package script '/home/saqib/linorobot2_ws/install/micro_ros_msgs/share/micro_ros_msgs/package.ps1'
+[19.695s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/saqib/linorobot2_ws/install/micro_ros_msgs/share/micro_ros_msgs/package.dsv'
+[19.703s] INFO:colcon.colcon_core.shell:Creating package script '/home/saqib/linorobot2_ws/install/micro_ros_msgs/share/micro_ros_msgs/package.sh'
+[19.706s] INFO:colcon.colcon_core.shell:Creating package script '/home/saqib/linorobot2_ws/install/micro_ros_msgs/share/micro_ros_msgs/package.bash'
+[19.709s] INFO:colcon.colcon_core.shell:Creating package script '/home/saqib/linorobot2_ws/install/micro_ros_msgs/share/micro_ros_msgs/package.zsh'
+[19.711s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/saqib/linorobot2_ws/install/micro_ros_msgs/share/colcon-core/packages/micro_ros_msgs)
+[20.629s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(micro_ros_msgs)
+[20.712s] Level 1:colcon.colcon_core.environment:checking '/home/saqib/linorobot2_ws/install/micro_ros_msgs' for CMake module files
+[20.717s] Level 1:colcon.colcon_core.environment:checking '/home/saqib/linorobot2_ws/install/micro_ros_msgs' for CMake config files
+[20.722s] Level 1:colcon.colcon_core.shell:create_environment_hook('micro_ros_msgs', 'cmake_prefix_path')
+[20.800s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/saqib/linorobot2_ws/install/micro_ros_msgs/share/micro_ros_msgs/hook/cmake_prefix_path.ps1'
+[20.816s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/saqib/linorobot2_ws/install/micro_ros_msgs/share/micro_ros_msgs/hook/cmake_prefix_path.dsv'
+[20.818s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/saqib/linorobot2_ws/install/micro_ros_msgs/share/micro_ros_msgs/hook/cmake_prefix_path.sh'
+[20.822s] Level 1:colcon.colcon_core.environment:checking '/home/saqib/linorobot2_ws/install/micro_ros_msgs/lib'
+[20.822s] Level 1:colcon.colcon_core.shell:create_environment_hook('micro_ros_msgs', 'ld_library_path_lib')
+[20.904s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/saqib/linorobot2_ws/install/micro_ros_msgs/share/micro_ros_msgs/hook/ld_library_path_lib.ps1'
+[20.908s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/saqib/linorobot2_ws/install/micro_ros_msgs/share/micro_ros_msgs/hook/ld_library_path_lib.dsv'
+[20.914s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/saqib/linorobot2_ws/install/micro_ros_msgs/share/micro_ros_msgs/hook/ld_library_path_lib.sh'
+[20.917s] Level 1:colcon.colcon_core.environment:checking '/home/saqib/linorobot2_ws/install/micro_ros_msgs/bin'
+[20.917s] Level 1:colcon.colcon_core.environment:checking '/home/saqib/linorobot2_ws/install/micro_ros_msgs/lib/pkgconfig/micro_ros_msgs.pc'
+[20.918s] Level 1:colcon.colcon_core.environment:checking '/home/saqib/linorobot2_ws/install/micro_ros_msgs/lib/python3.10/site-packages'
+[20.920s] Level 1:colcon.colcon_core.environment:checking '/home/saqib/linorobot2_ws/install/micro_ros_msgs/bin'
+[21.000s] INFO:colcon.colcon_core.shell:Creating package script '/home/saqib/linorobot2_ws/install/micro_ros_msgs/share/micro_ros_msgs/package.ps1'
+[21.003s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/saqib/linorobot2_ws/install/micro_ros_msgs/share/micro_ros_msgs/package.dsv'
+[21.015s] INFO:colcon.colcon_core.shell:Creating package script '/home/saqib/linorobot2_ws/install/micro_ros_msgs/share/micro_ros_msgs/package.sh'
+[21.018s] INFO:colcon.colcon_core.shell:Creating package script '/home/saqib/linorobot2_ws/install/micro_ros_msgs/share/micro_ros_msgs/package.bash'
+[21.021s] INFO:colcon.colcon_core.shell:Creating package script '/home/saqib/linorobot2_ws/install/micro_ros_msgs/share/micro_ros_msgs/package.zsh'
+[21.023s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/saqib/linorobot2_ws/install/micro_ros_msgs/share/colcon-core/packages/micro_ros_msgs)
+[21.026s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/saqib/linorobot2_ws/src/uros/micro-ROS-Agent/micro_ros_agent' with build type 'ament_cmake'
+[21.026s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/saqib/linorobot2_ws/src/uros/micro-ROS-Agent/micro_ros_agent'
+[21.144s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[21.145s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[21.516s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/saqib/linorobot2_ws/build/micro_ros_agent': CMAKE_PREFIX_PATH=/home/saqib/linorobot2_ws/install/micro_ros_msgs:/home/saqib/linorobot2_ws/install/micro_ros_setup:/home/saqib/linorobot2_ws/install/linorobot2_bringup:/home/saqib/linorobot2_ws/install/micro_ros_agent:/home/saqib/linorobot2_ws/install/linorobot2_navigation:/home/saqib/linorobot2_ws/install/linorobot2_description:/home/saqib/linorobot2_ws/install/linorobot2_base:/home/saqib/linorobot2_ws/install/linorobot2:/home/saqib/linorobot2_ws/install/ldlidar_sl_ros2:/opt/ros/humble LD_LIBRARY_PATH=/home/saqib/linorobot2_ws/install/micro_ros_msgs/lib:/home/saqib/linorobot2_ws/install/micro_ros_agent/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/saqib/linorobot2_ws/build/micro_ros_agent -- -j4 -l4
+[21.885s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/saqib/linorobot2_ws/build/micro_ros_agent' returned '0': CMAKE_PREFIX_PATH=/home/saqib/linorobot2_ws/install/micro_ros_msgs:/home/saqib/linorobot2_ws/install/micro_ros_setup:/home/saqib/linorobot2_ws/install/linorobot2_bringup:/home/saqib/linorobot2_ws/install/micro_ros_agent:/home/saqib/linorobot2_ws/install/linorobot2_navigation:/home/saqib/linorobot2_ws/install/linorobot2_description:/home/saqib/linorobot2_ws/install/linorobot2_base:/home/saqib/linorobot2_ws/install/linorobot2:/home/saqib/linorobot2_ws/install/ldlidar_sl_ros2:/opt/ros/humble LD_LIBRARY_PATH=/home/saqib/linorobot2_ws/install/micro_ros_msgs/lib:/home/saqib/linorobot2_ws/install/micro_ros_agent/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/saqib/linorobot2_ws/build/micro_ros_agent -- -j4 -l4
+[22.142s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/saqib/linorobot2_ws/build/micro_ros_agent': CMAKE_PREFIX_PATH=/home/saqib/linorobot2_ws/install/micro_ros_msgs:/home/saqib/linorobot2_ws/install/micro_ros_setup:/home/saqib/linorobot2_ws/install/linorobot2_bringup:/home/saqib/linorobot2_ws/install/micro_ros_agent:/home/saqib/linorobot2_ws/install/linorobot2_navigation:/home/saqib/linorobot2_ws/install/linorobot2_description:/home/saqib/linorobot2_ws/install/linorobot2_base:/home/saqib/linorobot2_ws/install/linorobot2:/home/saqib/linorobot2_ws/install/ldlidar_sl_ros2:/opt/ros/humble LD_LIBRARY_PATH=/home/saqib/linorobot2_ws/install/micro_ros_msgs/lib:/home/saqib/linorobot2_ws/install/micro_ros_agent/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/saqib/linorobot2_ws/build/micro_ros_agent
+[22.199s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(micro_ros_agent)
+[22.201s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/saqib/linorobot2_ws/build/micro_ros_agent' returned '0': CMAKE_PREFIX_PATH=/home/saqib/linorobot2_ws/install/micro_ros_msgs:/home/saqib/linorobot2_ws/install/micro_ros_setup:/home/saqib/linorobot2_ws/install/linorobot2_bringup:/home/saqib/linorobot2_ws/install/micro_ros_agent:/home/saqib/linorobot2_ws/install/linorobot2_navigation:/home/saqib/linorobot2_ws/install/linorobot2_description:/home/saqib/linorobot2_ws/install/linorobot2_base:/home/saqib/linorobot2_ws/install/linorobot2:/home/saqib/linorobot2_ws/install/ldlidar_sl_ros2:/opt/ros/humble LD_LIBRARY_PATH=/home/saqib/linorobot2_ws/install/micro_ros_msgs/lib:/home/saqib/linorobot2_ws/install/micro_ros_agent/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/saqib/linorobot2_ws/build/micro_ros_agent
+[22.291s] Level 1:colcon.colcon_core.environment:checking '/home/saqib/linorobot2_ws/install/micro_ros_agent' for CMake module files
+[22.294s] Level 1:colcon.colcon_core.environment:checking '/home/saqib/linorobot2_ws/install/micro_ros_agent' for CMake config files
+[22.297s] Level 1:colcon.colcon_core.shell:create_environment_hook('micro_ros_agent', 'cmake_prefix_path')
+[22.384s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/saqib/linorobot2_ws/install/micro_ros_agent/share/micro_ros_agent/hook/cmake_prefix_path.ps1'
+[22.387s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/saqib/linorobot2_ws/install/micro_ros_agent/share/micro_ros_agent/hook/cmake_prefix_path.dsv'
+[22.389s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/saqib/linorobot2_ws/install/micro_ros_agent/share/micro_ros_agent/hook/cmake_prefix_path.sh'
+[22.391s] Level 1:colcon.colcon_core.environment:checking '/home/saqib/linorobot2_ws/install/micro_ros_agent/lib'
+[22.392s] Level 1:colcon.colcon_core.shell:create_environment_hook('micro_ros_agent', 'ld_library_path_lib')
+[22.479s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/saqib/linorobot2_ws/install/micro_ros_agent/share/micro_ros_agent/hook/ld_library_path_lib.ps1'
+[22.481s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/saqib/linorobot2_ws/install/micro_ros_agent/share/micro_ros_agent/hook/ld_library_path_lib.dsv'
+[22.483s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/saqib/linorobot2_ws/install/micro_ros_agent/share/micro_ros_agent/hook/ld_library_path_lib.sh'
+[22.485s] Level 1:colcon.colcon_core.environment:checking '/home/saqib/linorobot2_ws/install/micro_ros_agent/bin'
+[22.485s] Level 1:colcon.colcon_core.environment:checking '/home/saqib/linorobot2_ws/install/micro_ros_agent/lib/pkgconfig/micro_ros_agent.pc'
+[22.486s] Level 1:colcon.colcon_core.environment:checking '/home/saqib/linorobot2_ws/install/micro_ros_agent/lib/python3.10/site-packages'
+[22.487s] Level 1:colcon.colcon_core.environment:checking '/home/saqib/linorobot2_ws/install/micro_ros_agent/bin'
+[22.578s] INFO:colcon.colcon_core.shell:Creating package script '/home/saqib/linorobot2_ws/install/micro_ros_agent/share/micro_ros_agent/package.ps1'
+[22.580s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/saqib/linorobot2_ws/install/micro_ros_agent/share/micro_ros_agent/package.dsv'
+[22.582s] INFO:colcon.colcon_core.shell:Creating package script '/home/saqib/linorobot2_ws/install/micro_ros_agent/share/micro_ros_agent/package.sh'
+[22.584s] INFO:colcon.colcon_core.shell:Creating package script '/home/saqib/linorobot2_ws/install/micro_ros_agent/share/micro_ros_agent/package.bash'
+[22.586s] INFO:colcon.colcon_core.shell:Creating package script '/home/saqib/linorobot2_ws/install/micro_ros_agent/share/micro_ros_agent/package.zsh'
+[22.588s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/saqib/linorobot2_ws/install/micro_ros_agent/share/colcon-core/packages/micro_ros_agent)
+[22.926s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(micro_ros_agent)
+[23.013s] Level 1:colcon.colcon_core.environment:checking '/home/saqib/linorobot2_ws/install/micro_ros_agent' for CMake module files
+[23.017s] Level 1:colcon.colcon_core.environment:checking '/home/saqib/linorobot2_ws/install/micro_ros_agent' for CMake config files
+[23.019s] Level 1:colcon.colcon_core.shell:create_environment_hook('micro_ros_agent', 'cmake_prefix_path')
+[23.116s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/saqib/linorobot2_ws/install/micro_ros_agent/share/micro_ros_agent/hook/cmake_prefix_path.ps1'
+[23.118s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/saqib/linorobot2_ws/install/micro_ros_agent/share/micro_ros_agent/hook/cmake_prefix_path.dsv'
+[23.120s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/saqib/linorobot2_ws/install/micro_ros_agent/share/micro_ros_agent/hook/cmake_prefix_path.sh'
+[23.123s] Level 1:colcon.colcon_core.environment:checking '/home/saqib/linorobot2_ws/install/micro_ros_agent/lib'
+[23.123s] Level 1:colcon.colcon_core.shell:create_environment_hook('micro_ros_agent', 'ld_library_path_lib')
+[23.212s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/saqib/linorobot2_ws/install/micro_ros_agent/share/micro_ros_agent/hook/ld_library_path_lib.ps1'
+[23.214s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/saqib/linorobot2_ws/install/micro_ros_agent/share/micro_ros_agent/hook/ld_library_path_lib.dsv'
+[23.215s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/saqib/linorobot2_ws/install/micro_ros_agent/share/micro_ros_agent/hook/ld_library_path_lib.sh'
+[23.217s] Level 1:colcon.colcon_core.environment:checking '/home/saqib/linorobot2_ws/install/micro_ros_agent/bin'
+[23.218s] Level 1:colcon.colcon_core.environment:checking '/home/saqib/linorobot2_ws/install/micro_ros_agent/lib/pkgconfig/micro_ros_agent.pc'
+[23.219s] Level 1:colcon.colcon_core.environment:checking '/home/saqib/linorobot2_ws/install/micro_ros_agent/lib/python3.10/site-packages'
+[23.220s] Level 1:colcon.colcon_core.environment:checking '/home/saqib/linorobot2_ws/install/micro_ros_agent/bin'
+[23.308s] INFO:colcon.colcon_core.shell:Creating package script '/home/saqib/linorobot2_ws/install/micro_ros_agent/share/micro_ros_agent/package.ps1'
+[23.311s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/saqib/linorobot2_ws/install/micro_ros_agent/share/micro_ros_agent/package.dsv'
+[23.314s] INFO:colcon.colcon_core.shell:Creating package script '/home/saqib/linorobot2_ws/install/micro_ros_agent/share/micro_ros_agent/package.sh'
+[23.316s] INFO:colcon.colcon_core.shell:Creating package script '/home/saqib/linorobot2_ws/install/micro_ros_agent/share/micro_ros_agent/package.bash'
+[23.318s] INFO:colcon.colcon_core.shell:Creating package script '/home/saqib/linorobot2_ws/install/micro_ros_agent/share/micro_ros_agent/package.zsh'
+[23.320s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/saqib/linorobot2_ws/install/micro_ros_agent/share/colcon-core/packages/micro_ros_agent)
+[23.322s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/saqib/linorobot2_ws/src/linorobot2/linorobot2_bringup' with build type 'ament_cmake'
+[23.322s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/saqib/linorobot2_ws/src/linorobot2/linorobot2_bringup'
+[23.421s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[23.421s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[23.806s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/saqib/linorobot2_ws/build/linorobot2_bringup': CMAKE_PREFIX_PATH=/home/saqib/linorobot2_ws/install/micro_ros_agent:/home/saqib/linorobot2_ws/install/micro_ros_msgs:/home/saqib/linorobot2_ws/install/micro_ros_setup:/home/saqib/linorobot2_ws/install/linorobot2_bringup:/home/saqib/linorobot2_ws/install/linorobot2_navigation:/home/saqib/linorobot2_ws/install/linorobot2_description:/home/saqib/linorobot2_ws/install/linorobot2_base:/home/saqib/linorobot2_ws/install/linorobot2:/home/saqib/linorobot2_ws/install/ldlidar_sl_ros2:/opt/ros/humble /usr/bin/cmake --build /home/saqib/linorobot2_ws/build/linorobot2_bringup -- -j4 -l4
+[23.996s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/saqib/linorobot2_ws/build/linorobot2_bringup' returned '0': CMAKE_PREFIX_PATH=/home/saqib/linorobot2_ws/install/micro_ros_agent:/home/saqib/linorobot2_ws/install/micro_ros_msgs:/home/saqib/linorobot2_ws/install/micro_ros_setup:/home/saqib/linorobot2_ws/install/linorobot2_bringup:/home/saqib/linorobot2_ws/install/linorobot2_navigation:/home/saqib/linorobot2_ws/install/linorobot2_description:/home/saqib/linorobot2_ws/install/linorobot2_base:/home/saqib/linorobot2_ws/install/linorobot2:/home/saqib/linorobot2_ws/install/ldlidar_sl_ros2:/opt/ros/humble /usr/bin/cmake --build /home/saqib/linorobot2_ws/build/linorobot2_bringup -- -j4 -l4
+[24.158s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/saqib/linorobot2_ws/build/linorobot2_bringup': CMAKE_PREFIX_PATH=/home/saqib/linorobot2_ws/install/micro_ros_agent:/home/saqib/linorobot2_ws/install/micro_ros_msgs:/home/saqib/linorobot2_ws/install/micro_ros_setup:/home/saqib/linorobot2_ws/install/linorobot2_bringup:/home/saqib/linorobot2_ws/install/linorobot2_navigation:/home/saqib/linorobot2_ws/install/linorobot2_description:/home/saqib/linorobot2_ws/install/linorobot2_base:/home/saqib/linorobot2_ws/install/linorobot2:/home/saqib/linorobot2_ws/install/ldlidar_sl_ros2:/opt/ros/humble /usr/bin/cmake --install /home/saqib/linorobot2_ws/build/linorobot2_bringup
+[24.215s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(linorobot2_bringup)
+[24.217s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/saqib/linorobot2_ws/build/linorobot2_bringup' returned '0': CMAKE_PREFIX_PATH=/home/saqib/linorobot2_ws/install/micro_ros_agent:/home/saqib/linorobot2_ws/install/micro_ros_msgs:/home/saqib/linorobot2_ws/install/micro_ros_setup:/home/saqib/linorobot2_ws/install/linorobot2_bringup:/home/saqib/linorobot2_ws/install/linorobot2_navigation:/home/saqib/linorobot2_ws/install/linorobot2_description:/home/saqib/linorobot2_ws/install/linorobot2_base:/home/saqib/linorobot2_ws/install/linorobot2:/home/saqib/linorobot2_ws/install/ldlidar_sl_ros2:/opt/ros/humble /usr/bin/cmake --install /home/saqib/linorobot2_ws/build/linorobot2_bringup
+[24.315s] Level 1:colcon.colcon_core.environment:checking '/home/saqib/linorobot2_ws/install/linorobot2_bringup' for CMake module files
+[24.318s] Level 1:colcon.colcon_core.environment:checking '/home/saqib/linorobot2_ws/install/linorobot2_bringup' for CMake config files
+[24.322s] Level 1:colcon.colcon_core.shell:create_environment_hook('linorobot2_bringup', 'cmake_prefix_path')
+[24.409s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/saqib/linorobot2_ws/install/linorobot2_bringup/share/linorobot2_bringup/hook/cmake_prefix_path.ps1'
+[24.412s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/saqib/linorobot2_ws/install/linorobot2_bringup/share/linorobot2_bringup/hook/cmake_prefix_path.dsv'
+[24.413s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/saqib/linorobot2_ws/install/linorobot2_bringup/share/linorobot2_bringup/hook/cmake_prefix_path.sh'
+[24.416s] Level 1:colcon.colcon_core.environment:checking '/home/saqib/linorobot2_ws/install/linorobot2_bringup/bin'
+[24.416s] Level 1:colcon.colcon_core.environment:checking '/home/saqib/linorobot2_ws/install/linorobot2_bringup/lib/pkgconfig/linorobot2_bringup.pc'
+[24.417s] Level 1:colcon.colcon_core.environment:checking '/home/saqib/linorobot2_ws/install/linorobot2_bringup/lib/python3.10/site-packages'
+[24.418s] Level 1:colcon.colcon_core.environment:checking '/home/saqib/linorobot2_ws/install/linorobot2_bringup/bin'
+[24.505s] INFO:colcon.colcon_core.shell:Creating package script '/home/saqib/linorobot2_ws/install/linorobot2_bringup/share/linorobot2_bringup/package.ps1'
+[24.507s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/saqib/linorobot2_ws/install/linorobot2_bringup/share/linorobot2_bringup/package.dsv'
+[24.510s] INFO:colcon.colcon_core.shell:Creating package script '/home/saqib/linorobot2_ws/install/linorobot2_bringup/share/linorobot2_bringup/package.sh'
+[24.512s] INFO:colcon.colcon_core.shell:Creating package script '/home/saqib/linorobot2_ws/install/linorobot2_bringup/share/linorobot2_bringup/package.bash'
+[24.514s] INFO:colcon.colcon_core.shell:Creating package script '/home/saqib/linorobot2_ws/install/linorobot2_bringup/share/linorobot2_bringup/package.zsh'
+[24.516s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/saqib/linorobot2_ws/install/linorobot2_bringup/share/colcon-core/packages/linorobot2_bringup)
+[24.749s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(linorobot2_bringup)
+[24.840s] Level 1:colcon.colcon_core.environment:checking '/home/saqib/linorobot2_ws/install/linorobot2_bringup' for CMake module files
+[24.843s] Level 1:colcon.colcon_core.environment:checking '/home/saqib/linorobot2_ws/install/linorobot2_bringup' for CMake config files
+[24.846s] Level 1:colcon.colcon_core.shell:create_environment_hook('linorobot2_bringup', 'cmake_prefix_path')
+[24.940s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/saqib/linorobot2_ws/install/linorobot2_bringup/share/linorobot2_bringup/hook/cmake_prefix_path.ps1'
+[24.942s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/saqib/linorobot2_ws/install/linorobot2_bringup/share/linorobot2_bringup/hook/cmake_prefix_path.dsv'
+[24.944s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/saqib/linorobot2_ws/install/linorobot2_bringup/share/linorobot2_bringup/hook/cmake_prefix_path.sh'
+[24.947s] Level 1:colcon.colcon_core.environment:checking '/home/saqib/linorobot2_ws/install/linorobot2_bringup/bin'
+[24.947s] Level 1:colcon.colcon_core.environment:checking '/home/saqib/linorobot2_ws/install/linorobot2_bringup/lib/pkgconfig/linorobot2_bringup.pc'
+[24.948s] Level 1:colcon.colcon_core.environment:checking '/home/saqib/linorobot2_ws/install/linorobot2_bringup/lib/python3.10/site-packages'
+[24.949s] Level 1:colcon.colcon_core.environment:checking '/home/saqib/linorobot2_ws/install/linorobot2_bringup/bin'
+[25.038s] INFO:colcon.colcon_core.shell:Creating package script '/home/saqib/linorobot2_ws/install/linorobot2_bringup/share/linorobot2_bringup/package.ps1'
+[25.041s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/saqib/linorobot2_ws/install/linorobot2_bringup/share/linorobot2_bringup/package.dsv'
+[25.043s] INFO:colcon.colcon_core.shell:Creating package script '/home/saqib/linorobot2_ws/install/linorobot2_bringup/share/linorobot2_bringup/package.sh'
+[25.045s] INFO:colcon.colcon_core.shell:Creating package script '/home/saqib/linorobot2_ws/install/linorobot2_bringup/share/linorobot2_bringup/package.bash'
+[25.047s] INFO:colcon.colcon_core.shell:Creating package script '/home/saqib/linorobot2_ws/install/linorobot2_bringup/share/linorobot2_bringup/package.zsh'
+[25.049s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/saqib/linorobot2_ws/install/linorobot2_bringup/share/colcon-core/packages/linorobot2_bringup)
+[25.051s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[25.052s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[25.053s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[25.053s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[25.193s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[25.193s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[25.194s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[25.250s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[25.351s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/saqib/linorobot2_ws/install/local_setup.ps1'
+[25.356s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/saqib/linorobot2_ws/install/_local_setup_util_ps1.py'
+[25.362s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/saqib/linorobot2_ws/install/setup.ps1'
+[25.450s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/saqib/linorobot2_ws/install/local_setup.sh'
+[25.453s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/saqib/linorobot2_ws/install/_local_setup_util_sh.py'
+[25.456s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/saqib/linorobot2_ws/install/setup.sh'
+[25.552s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/saqib/linorobot2_ws/install/local_setup.bash'
+[25.554s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/saqib/linorobot2_ws/install/setup.bash'
+[25.634s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/saqib/linorobot2_ws/install/local_setup.zsh'
+[25.639s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/saqib/linorobot2_ws/install/setup.zsh'

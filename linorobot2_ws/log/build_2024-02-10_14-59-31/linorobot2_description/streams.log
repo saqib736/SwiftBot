@@ -1,0 +1,47 @@
+[1.799s] Invoking command in '/home/saqib/linorobot2_ws/build/linorobot2_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/saqib/linorobot2_ws/build/linorobot2_description -- -j4 -l4
+[1.986s] Invoked command in '/home/saqib/linorobot2_ws/build/linorobot2_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/saqib/linorobot2_ws/build/linorobot2_description -- -j4 -l4
+[2.130s] Invoking command in '/home/saqib/linorobot2_ws/build/linorobot2_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/saqib/linorobot2_ws/build/linorobot2_description
+[2.168s] -- Install configuration: ""
+[2.169s] -- Up-to-date: /home/saqib/linorobot2_ws/install/linorobot2_description/share/linorobot2_description/launch
+[2.170s] -- Up-to-date: /home/saqib/linorobot2_ws/install/linorobot2_description/share/linorobot2_description/launch/description.launch.py
+[2.171s] -- Up-to-date: /home/saqib/linorobot2_ws/install/linorobot2_description/share/linorobot2_description/urdf
+[2.171s] -- Up-to-date: /home/saqib/linorobot2_ws/install/linorobot2_description/share/linorobot2_description/urdf/sensors
+[2.172s] -- Up-to-date: /home/saqib/linorobot2_ws/install/linorobot2_description/share/linorobot2_description/urdf/sensors/laser.urdf.xacro
+[2.174s] -- Up-to-date: /home/saqib/linorobot2_ws/install/linorobot2_description/share/linorobot2_description/urdf/sensors/depth_sensor.urdf.xacro
+[2.175s] -- Up-to-date: /home/saqib/linorobot2_ws/install/linorobot2_description/share/linorobot2_description/urdf/sensors/generic_laser.urdf.xacro
+[2.175s] -- Up-to-date: /home/saqib/linorobot2_ws/install/linorobot2_description/share/linorobot2_description/urdf/sensors/imu.urdf.xacro
+[2.177s] -- Up-to-date: /home/saqib/linorobot2_ws/install/linorobot2_description/share/linorobot2_description/urdf/4wd_properties.urdf.xacro
+[2.180s] -- Up-to-date: /home/saqib/linorobot2_ws/install/linorobot2_description/share/linorobot2_description/urdf/mech
+[2.181s] -- Up-to-date: /home/saqib/linorobot2_ws/install/linorobot2_description/share/linorobot2_description/urdf/mech/caster_wheel.urdf.xacro
+[2.181s] -- Up-to-date: /home/saqib/linorobot2_ws/install/linorobot2_description/share/linorobot2_description/urdf/mech/base.urdf.xacro
+[2.182s] -- Up-to-date: /home/saqib/linorobot2_ws/install/linorobot2_description/share/linorobot2_description/urdf/mech/wheel.urdf.xacro
+[2.183s] -- Up-to-date: /home/saqib/linorobot2_ws/install/linorobot2_description/share/linorobot2_description/urdf/mech/mecanum_wheel.urdf.xacro
+[2.184s] -- Up-to-date: /home/saqib/linorobot2_ws/install/linorobot2_description/share/linorobot2_description/urdf/2wd_properties.urdf.xacro
+[2.185s] -- Up-to-date: /home/saqib/linorobot2_ws/install/linorobot2_description/share/linorobot2_description/urdf/mecanum_properties.urdf.xacro
+[2.186s] -- Up-to-date: /home/saqib/linorobot2_ws/install/linorobot2_description/share/linorobot2_description/urdf/robots
+[2.187s] -- Up-to-date: /home/saqib/linorobot2_ws/install/linorobot2_description/share/linorobot2_description/urdf/robots/vattenkar.urdf.xacro
+[2.187s] -- Up-to-date: /home/saqib/linorobot2_ws/install/linorobot2_description/share/linorobot2_description/urdf/robots/4wd.urdf.xacro
+[2.188s] -- Up-to-date: /home/saqib/linorobot2_ws/install/linorobot2_description/share/linorobot2_description/urdf/robots/2wd.urdf.xacro
+[2.189s] -- Up-to-date: /home/saqib/linorobot2_ws/install/linorobot2_description/share/linorobot2_description/urdf/robots/mecanum.urdf.xacro
+[2.191s] -- Up-to-date: /home/saqib/linorobot2_ws/install/linorobot2_description/share/linorobot2_description/urdf/controllers
+[2.192s] -- Up-to-date: /home/saqib/linorobot2_ws/install/linorobot2_description/share/linorobot2_description/urdf/controllers/diff_drive.urdf.xacro
+[2.192s] -- Up-to-date: /home/saqib/linorobot2_ws/install/linorobot2_description/share/linorobot2_description/urdf/controllers/omni_drive.urdf.xacro
+[2.193s] -- Up-to-date: /home/saqib/linorobot2_ws/install/linorobot2_description/share/linorobot2_description/urdf/controllers/skid_steer.urdf.xacro
+[2.194s] -- Up-to-date: /home/saqib/linorobot2_ws/install/linorobot2_description/share/linorobot2_description/rviz
+[2.194s] -- Up-to-date: /home/saqib/linorobot2_ws/install/linorobot2_description/share/linorobot2_description/rviz/description.rviz
+[2.195s] -- Up-to-date: /home/saqib/linorobot2_ws/install/linorobot2_description/share/ament_index/resource_index/package_run_dependencies/linorobot2_description
+[2.197s] -- Up-to-date: /home/saqib/linorobot2_ws/install/linorobot2_description/share/ament_index/resource_index/parent_prefix_path/linorobot2_description
+[2.198s] -- Up-to-date: /home/saqib/linorobot2_ws/install/linorobot2_description/share/linorobot2_description/environment/ament_prefix_path.sh
+[2.201s] -- Up-to-date: /home/saqib/linorobot2_ws/install/linorobot2_description/share/linorobot2_description/environment/ament_prefix_path.dsv
+[2.211s] -- Up-to-date: /home/saqib/linorobot2_ws/install/linorobot2_description/share/linorobot2_description/environment/path.sh
+[2.211s] -- Up-to-date: /home/saqib/linorobot2_ws/install/linorobot2_description/share/linorobot2_description/environment/path.dsv
+[2.212s] -- Up-to-date: /home/saqib/linorobot2_ws/install/linorobot2_description/share/linorobot2_description/local_setup.bash
+[2.213s] -- Up-to-date: /home/saqib/linorobot2_ws/install/linorobot2_description/share/linorobot2_description/local_setup.sh
+[2.214s] -- Up-to-date: /home/saqib/linorobot2_ws/install/linorobot2_description/share/linorobot2_description/local_setup.zsh
+[2.215s] -- Up-to-date: /home/saqib/linorobot2_ws/install/linorobot2_description/share/linorobot2_description/local_setup.dsv
+[2.215s] -- Installing: /home/saqib/linorobot2_ws/install/linorobot2_description/share/linorobot2_description/package.dsv
+[2.216s] -- Up-to-date: /home/saqib/linorobot2_ws/install/linorobot2_description/share/ament_index/resource_index/packages/linorobot2_description
+[2.217s] -- Up-to-date: /home/saqib/linorobot2_ws/install/linorobot2_description/share/linorobot2_description/cmake/linorobot2_descriptionConfig.cmake
+[2.218s] -- Up-to-date: /home/saqib/linorobot2_ws/install/linorobot2_description/share/linorobot2_description/cmake/linorobot2_descriptionConfig-version.cmake
+[2.219s] -- Up-to-date: /home/saqib/linorobot2_ws/install/linorobot2_description/share/linorobot2_description/package.xml
+[2.282s] Invoked command in '/home/saqib/linorobot2_ws/build/linorobot2_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/saqib/linorobot2_ws/build/linorobot2_description

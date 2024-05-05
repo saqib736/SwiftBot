@@ -1,0 +1,22 @@
+[0.691s] Invoking command in '/home/saqib/linorobot2_ws/build/linorobot2_base': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/saqib/linorobot2_ws/build/linorobot2_base -- -j4 -l4
+[1.231s] Invoked command in '/home/saqib/linorobot2_ws/build/linorobot2_base' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/saqib/linorobot2_ws/build/linorobot2_base -- -j4 -l4
+[1.982s] Invoking command in '/home/saqib/linorobot2_ws/build/linorobot2_base': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/saqib/linorobot2_ws/build/linorobot2_base
+[2.031s] -- Install configuration: ""
+[2.033s] -- Up-to-date: /home/saqib/linorobot2_ws/install/linorobot2_base/share/linorobot2_base/config
+[2.034s] -- Up-to-date: /home/saqib/linorobot2_ws/install/linorobot2_base/share/linorobot2_base/config/ekf.yaml
+[2.038s] -- Up-to-date: /home/saqib/linorobot2_ws/install/linorobot2_base/share/ament_index/resource_index/package_run_dependencies/linorobot2_base
+[2.042s] -- Up-to-date: /home/saqib/linorobot2_ws/install/linorobot2_base/share/ament_index/resource_index/parent_prefix_path/linorobot2_base
+[2.048s] -- Up-to-date: /home/saqib/linorobot2_ws/install/linorobot2_base/share/linorobot2_base/environment/ament_prefix_path.sh
+[2.050s] -- Up-to-date: /home/saqib/linorobot2_ws/install/linorobot2_base/share/linorobot2_base/environment/ament_prefix_path.dsv
+[2.051s] -- Up-to-date: /home/saqib/linorobot2_ws/install/linorobot2_base/share/linorobot2_base/environment/path.sh
+[2.054s] -- Up-to-date: /home/saqib/linorobot2_ws/install/linorobot2_base/share/linorobot2_base/environment/path.dsv
+[2.072s] -- Up-to-date: /home/saqib/linorobot2_ws/install/linorobot2_base/share/linorobot2_base/local_setup.bash
+[2.108s] -- Up-to-date: /home/saqib/linorobot2_ws/install/linorobot2_base/share/linorobot2_base/local_setup.sh
+[2.111s] -- Up-to-date: /home/saqib/linorobot2_ws/install/linorobot2_base/share/linorobot2_base/local_setup.zsh
+[2.113s] -- Up-to-date: /home/saqib/linorobot2_ws/install/linorobot2_base/share/linorobot2_base/local_setup.dsv
+[2.114s] -- Installing: /home/saqib/linorobot2_ws/install/linorobot2_base/share/linorobot2_base/package.dsv
+[2.142s] -- Up-to-date: /home/saqib/linorobot2_ws/install/linorobot2_base/share/ament_index/resource_index/packages/linorobot2_base
+[2.145s] -- Up-to-date: /home/saqib/linorobot2_ws/install/linorobot2_base/share/linorobot2_base/cmake/linorobot2_baseConfig.cmake
+[2.146s] -- Up-to-date: /home/saqib/linorobot2_ws/install/linorobot2_base/share/linorobot2_base/cmake/linorobot2_baseConfig-version.cmake
+[2.146s] -- Up-to-date: /home/saqib/linorobot2_ws/install/linorobot2_base/share/linorobot2_base/package.xml
+[3.561s] Invoked command in '/home/saqib/linorobot2_ws/build/linorobot2_base' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/saqib/linorobot2_ws/build/linorobot2_base

@@ -1,0 +1,34 @@
+[1.536s] Invoking command in '/home/saqib/linorobot2_ws/build/ldlidar_sl_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/saqib/linorobot2_ws/build/ldlidar_sl_ros2 -- -j4 -l4
+[2.201s] [35m[1mConsolidate compiler generated dependencies of target ldlidar_sl_ros2_node[0m
+[2.620s] [100%] Built target ldlidar_sl_ros2_node
+[3.164s] Invoked command in '/home/saqib/linorobot2_ws/build/ldlidar_sl_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/saqib/linorobot2_ws/build/ldlidar_sl_ros2 -- -j4 -l4
+[4.553s] Invoking command in '/home/saqib/linorobot2_ws/build/ldlidar_sl_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/saqib/linorobot2_ws/build/ldlidar_sl_ros2
+[5.018s] -- Install configuration: ""
+[5.020s] -- Up-to-date: /home/saqib/linorobot2_ws/install/ldlidar_sl_ros2/lib/ldlidar_sl_ros2/ldlidar_sl_ros2_node
+[5.022s] -- Up-to-date: /home/saqib/linorobot2_ws/install/ldlidar_sl_ros2/share/ldlidar_sl_ros2//launch
+[5.023s] -- Up-to-date: /home/saqib/linorobot2_ws/install/ldlidar_sl_ros2/share/ldlidar_sl_ros2//launch/ld14.launch.py
+[5.024s] -- Up-to-date: /home/saqib/linorobot2_ws/install/ldlidar_sl_ros2/share/ldlidar_sl_ros2//launch/ld14p.launch.py
+[5.025s] -- Up-to-date: /home/saqib/linorobot2_ws/install/ldlidar_sl_ros2/share/ldlidar_sl_ros2//launch/viewer_ld14p.launch.py
+[5.026s] -- Up-to-date: /home/saqib/linorobot2_ws/install/ldlidar_sl_ros2/share/ldlidar_sl_ros2//launch/viewer_ld14.launch.py
+[5.028s] -- Up-to-date: /home/saqib/linorobot2_ws/install/ldlidar_sl_ros2/share/ldlidar_sl_ros2//rviz2
+[5.029s] -- Up-to-date: /home/saqib/linorobot2_ws/install/ldlidar_sl_ros2/share/ldlidar_sl_ros2//rviz2/ldlidar.rviz
+[5.030s] -- Up-to-date: /home/saqib/linorobot2_ws/install/ldlidar_sl_ros2/share/ldlidar_sl_ros2//scripts
+[5.031s] -- Up-to-date: /home/saqib/linorobot2_ws/install/ldlidar_sl_ros2/share/ldlidar_sl_ros2//scripts/delete_udev_rules.sh
+[5.032s] -- Up-to-date: /home/saqib/linorobot2_ws/install/ldlidar_sl_ros2/share/ldlidar_sl_ros2//scripts/ldlidar.rules
+[5.033s] -- Up-to-date: /home/saqib/linorobot2_ws/install/ldlidar_sl_ros2/share/ldlidar_sl_ros2//scripts/create_udev_rules.sh
+[5.034s] -- Up-to-date: /home/saqib/linorobot2_ws/install/ldlidar_sl_ros2/share/ament_index/resource_index/package_run_dependencies/ldlidar_sl_ros2
+[5.035s] -- Up-to-date: /home/saqib/linorobot2_ws/install/ldlidar_sl_ros2/share/ament_index/resource_index/parent_prefix_path/ldlidar_sl_ros2
+[5.036s] -- Up-to-date: /home/saqib/linorobot2_ws/install/ldlidar_sl_ros2/share/ldlidar_sl_ros2/environment/ament_prefix_path.sh
+[5.036s] -- Up-to-date: /home/saqib/linorobot2_ws/install/ldlidar_sl_ros2/share/ldlidar_sl_ros2/environment/ament_prefix_path.dsv
+[5.037s] -- Up-to-date: /home/saqib/linorobot2_ws/install/ldlidar_sl_ros2/share/ldlidar_sl_ros2/environment/path.sh
+[5.038s] -- Up-to-date: /home/saqib/linorobot2_ws/install/ldlidar_sl_ros2/share/ldlidar_sl_ros2/environment/path.dsv
+[5.040s] -- Up-to-date: /home/saqib/linorobot2_ws/install/ldlidar_sl_ros2/share/ldlidar_sl_ros2/local_setup.bash
+[5.040s] -- Up-to-date: /home/saqib/linorobot2_ws/install/ldlidar_sl_ros2/share/ldlidar_sl_ros2/local_setup.sh
+[5.041s] -- Up-to-date: /home/saqib/linorobot2_ws/install/ldlidar_sl_ros2/share/ldlidar_sl_ros2/local_setup.zsh
+[5.042s] -- Up-to-date: /home/saqib/linorobot2_ws/install/ldlidar_sl_ros2/share/ldlidar_sl_ros2/local_setup.dsv
+[5.043s] -- Installing: /home/saqib/linorobot2_ws/install/ldlidar_sl_ros2/share/ldlidar_sl_ros2/package.dsv
+[5.044s] -- Up-to-date: /home/saqib/linorobot2_ws/install/ldlidar_sl_ros2/share/ament_index/resource_index/packages/ldlidar_sl_ros2
+[5.044s] -- Up-to-date: /home/saqib/linorobot2_ws/install/ldlidar_sl_ros2/share/ldlidar_sl_ros2/cmake/ldlidar_sl_ros2Config.cmake
+[5.045s] -- Up-to-date: /home/saqib/linorobot2_ws/install/ldlidar_sl_ros2/share/ldlidar_sl_ros2/cmake/ldlidar_sl_ros2Config-version.cmake
+[5.046s] -- Up-to-date: /home/saqib/linorobot2_ws/install/ldlidar_sl_ros2/share/ldlidar_sl_ros2/package.xml
+[5.378s] Invoked command in '/home/saqib/linorobot2_ws/build/ldlidar_sl_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/saqib/linorobot2_ws/build/ldlidar_sl_ros2
